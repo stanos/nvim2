@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["andromeda.vim"] = {
+    loaded = true,
+    path = "/Users/stanos/.local/share/nvim/site/pack/packer/start/andromeda.vim",
+    url = "https://github.com/safv12/andromeda.vim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/Users/stanos/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
