@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- Theme / Colorscheme
-vim.cmd [[colorscheme andromeda]]
+vim.cmd [[colorscheme gruvbox]]
 
 -- numbers
 opt.relativenumber = true
