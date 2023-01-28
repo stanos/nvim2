@@ -11,7 +11,6 @@ opt.number = true
 opt.clipboard:append { 'unnamed' }
 opt.ignorecase = true
 opt.smartcase = true
-opt.cursorline = true
 opt.termguicolors = true
 opt.winblend = 0
 opt.wildoptions = 'pum'
