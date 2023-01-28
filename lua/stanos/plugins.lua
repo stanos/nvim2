@@ -19,6 +19,7 @@ return require('packer').startup(function(use)
 	use 'nvim-telescope/telescope-file-browser.nvim'
 	use 'safv12/andromeda.vim'
 	use 'williamboman/mason-lspconfig.nvim'
+	use 'williamboman/mason.nvim'
 	use 'hrsh7th/cmp-nvim-lsp'
 	use 'hrsh7th/nvim-cmp'
 	use 'L3MON4D3/LuaSnip'
