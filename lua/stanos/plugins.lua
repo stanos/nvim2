@@ -8,6 +8,8 @@ return require('packer').startup(function(use)
 	use { 'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
 	use 'folke/tokyonight.nvim'
 	use 'EdenEast/nightfox.nvim'
+	use 'kabouzeid/nvim-lspinstall'
+	use 'rebelot/kanagawa.nvim'
 	use 'ellisonleao/gruvbox.nvim'
 	use {
 		'nvim-telescope/telescope.nvim',

@@ -72,10 +72,10 @@ local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
 nvim_lsp.flow.setup {
 	on_attach = on_attach,
-	capabilities = capabilities
+	capabilities = capabilities,
 }
 
-nvim_lsp.eslint.setup {
+nvim_lsp.pyright.setup {
 	on_attach = on_attach,
 	capabilities = capabilities
 }

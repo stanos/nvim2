@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- Theme / Colorscheme
-vim.cmd [[colorscheme carbonfox]]
+vim.cmd [[colorscheme gruvbox]]
 vim.cmd [[set timeoutlen=350]]
 
 -- numbers
