@@ -8,6 +8,7 @@ local function telescope_buffer_dir()
 end
 
 require("telescope").load_extension("emoji")
+require('telescope').load_extension('lazygit')
 local fb_actions = require "telescope".extensions.file_browser.actions
 
 telescope.setup {

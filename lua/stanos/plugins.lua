@@ -9,6 +9,7 @@ return require('packer').startup(function(use)
 	use 'folke/tokyonight.nvim'
 	use 'EdenEast/nightfox.nvim'
 	use 'kabouzeid/nvim-lspinstall'
+	use 'kdheepak/lazygit.nvim'
 	use 'rebelot/kanagawa.nvim'
 	use 'ellisonleao/gruvbox.nvim'
 	use {

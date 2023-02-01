@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- Theme / Colorscheme
-vim.cmd [[colorscheme gruvbox]]
+vim.cmd [[colorscheme tokyonight]]
 vim.cmd [[set timeoutlen=350]]
 
 -- numbers
@@ -9,7 +9,7 @@ opt.relativenumber = true
 opt.number = true
 
 -- OPT = options
-opt.clipboard:append { 'unnamed' }
+opt.clipboard:append { 'unnamedplus' }
 opt.ignorecase = true
 opt.smartcase = true
 opt.termguicolors = true
