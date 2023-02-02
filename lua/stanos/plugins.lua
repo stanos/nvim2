@@ -7,6 +7,12 @@ return require('packer').startup(function(use)
 	-- using packer.nvim
 	use { 'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
 	use 'folke/tokyonight.nvim'
+	use {
+		'lewis6991/gitsigns.nvim',
+		config = function()
+			require('gitsigns').setup()
+		end
+	}
 	use 'EdenEast/nightfox.nvim'
 	use 'kabouzeid/nvim-lspinstall'
 	use 'kdheepak/lazygit.nvim'
