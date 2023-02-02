@@ -9,9 +9,6 @@ return require('packer').startup(function(use)
 	use 'folke/tokyonight.nvim'
 	use {
 		'lewis6991/gitsigns.nvim',
-		config = function()
-			require('gitsigns').setup()
-		end
 	}
 	use 'EdenEast/nightfox.nvim'
 	use 'kabouzeid/nvim-lspinstall'
