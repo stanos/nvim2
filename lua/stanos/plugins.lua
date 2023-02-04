@@ -10,6 +10,7 @@ return require('packer').startup(function(use)
 	use {
 		'lewis6991/gitsigns.nvim',
 	}
+	use 'rcarriga/nvim-notify'
 	use 'EdenEast/nightfox.nvim'
 	use 'kabouzeid/nvim-lspinstall'
 	use 'kdheepak/lazygit.nvim'
