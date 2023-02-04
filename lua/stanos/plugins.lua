@@ -13,7 +13,10 @@ return require('packer').startup(function(use)
 	use 'rcarriga/nvim-notify'
 	use 'EdenEast/nightfox.nvim'
 	use 'kabouzeid/nvim-lspinstall'
+	use 'arzg/vim-substrata'
 	use 'kdheepak/lazygit.nvim'
+	use 'onsails/lspkind-nvim'
+	use 'glepnir/lspsaga.nvim'
 	use 'rebelot/kanagawa.nvim'
 	use 'ellisonleao/gruvbox.nvim'
 	use {

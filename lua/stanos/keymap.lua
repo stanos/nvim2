@@ -10,4 +10,4 @@ vim.keymap.set('n', '<Space>', '<C-w>w')
 vim.keymap.set('i', 'jk', '<ESC>')
 vim.keymap.set('n', '<ESC>', ':nohlsearch<CR>')
 
-vim.keymap.set('n', 'gl', ':LazyGit<CR>')
+vim.keymap.set('n', 'gll', ':LazyGit<CR>')
