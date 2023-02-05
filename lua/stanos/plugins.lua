@@ -7,6 +7,7 @@ return require('packer').startup(function(use)
 	-- using packer.nvim
 	use { 'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
 	use 'folke/tokyonight.nvim'
+	use { "catppuccin/nvim", as = "catppuccin" }
 	use {
 		'lewis6991/gitsigns.nvim',
 	}

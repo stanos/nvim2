@@ -11,3 +11,6 @@ vim.keymap.set('i', 'jk', '<ESC>')
 vim.keymap.set('n', '<ESC>', ':nohlsearch<CR>')
 
 vim.keymap.set('n', 'gll', ':LazyGit<CR>')
+
+vim.keymap.set('n', '<TAB>', ':BufferLineCycleNext<CR>')
+vim.keymap.set('n', '<S-TAB>', ':BufferLineCyclePrev<CR>')
