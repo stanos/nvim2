@@ -75,6 +75,22 @@ nvim_lsp.flow.setup {
 	capabilities = capabilities,
 }
 
+nvim_lsp.rust_analyzer.setup {
+	on_attach = on_attach,
+	capabilities = capabilities,
+}
+
+nvim_lsp.bashls.setup {
+	on_attach = on_attach,
+	capabilities = capabilities,
+}
+
+nvim_lsp.asm_lsp.setup {
+	on_attach = on_attach,
+	capabilities = capabilities,
+	root_dir = function() return vim.loop.cwd() end
+}
+
 nvim_lsp.clangd.setup {
 	on_attach = on_attach,
 	capabilities = capabilities,
@@ -87,7 +103,7 @@ nvim_lsp.pyright.setup {
 
 nvim_lsp.tsserver.setup {
 	on_attach = on_attach,
-	filetypes = { "typescript", "typescriptreact", "typescript.tsx" },
+	--filetypes = { "typescript", "typescriptreact", "typescript.tsx" },
 	cmd = { "typescript-language-server", "--stdio" },
 	capabilities = capabilities
 }
@@ -115,11 +131,7 @@ nvim_lsp.sumneko_lua.setup {
 	},
 }
 
-nvim_lsp.tailwindcss.setup {
-	on_attach = on_attach,
-	capabilities = capabilities,
-	root_dir = function() return vim.loop.cwd() end
-}
+
 
 nvim_lsp.cssls.setup {
 	on_attach = on_attach,

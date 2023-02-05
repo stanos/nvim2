@@ -8,6 +8,7 @@ vim.keymap.set('n', 'ss', ':split<Return><C-w>w')
 vim.keymap.set('n', 'sv', ':vsplit<Return><C-w>w')
 vim.keymap.set('n', '<Space>', '<C-w>w')
 vim.keymap.set('i', 'jk', '<ESC>')
+vim.keymap.set('t', 'jk', '<c-\\><c-n>')
 vim.keymap.set('n', '<ESC>', ':nohlsearch<CR>')
 
 vim.keymap.set('n', 'gll', ':LazyGit<CR>')

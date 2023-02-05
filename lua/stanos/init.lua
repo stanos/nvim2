@@ -19,7 +19,8 @@ opt.pumblend = 5
 opt.background = 'dark'
 opt.shiftwidth = 2
 opt.tabstop = 2
+opt.spell = true
 vim.notify = require("notify")
-vim.notify("Welcome Stanos", "info", {
-	title = "System",
+require("notify").setup({
+	background_colour = "#000000",
 })

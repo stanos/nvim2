@@ -13,6 +13,10 @@ return require('packer').startup(function(use)
 	}
 	use 'rcarriga/nvim-notify'
 	use 'EdenEast/nightfox.nvim'
+	use {
+		'svrana/neosolarized.nvim',
+		requires = { 'tjdevries/colorbuddy.nvim' }
+	}
 	use 'kabouzeid/nvim-lspinstall'
 	use 'arzg/vim-substrata'
 	use 'kdheepak/lazygit.nvim'
@@ -31,6 +35,10 @@ return require('packer').startup(function(use)
 	use 'safv12/andromeda.vim'
 	use 'williamboman/mason-lspconfig.nvim'
 	use 'williamboman/mason.nvim'
+	use {
+		"windwp/nvim-autopairs",
+		config = function() require("nvim-autopairs").setup {} end
+	}
 	use 'hrsh7th/cmp-nvim-lsp'
 	use 'hrsh7th/nvim-cmp'
 	use 'L3MON4D3/LuaSnip'
