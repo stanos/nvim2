@@ -12,6 +12,16 @@ return require('packer').startup(function(use)
 		'lewis6991/gitsigns.nvim',
 	}
 	use 'rcarriga/nvim-notify'
+	use {
+    'saecki/crates.nvim',
+    tag = 'v0.3.0',
+    requires = { 'nvim-lua/plenary.nvim' },
+    config = function()
+        require('crates').setup()
+    end,
+	}
+	use 'simrat39/rust-tools.nvim'
+	use({ "petertriho/cmp-git", requires = "nvim-lua/plenary.nvim" })
 	use 'EdenEast/nightfox.nvim'
 	use {
 		'svrana/neosolarized.nvim',

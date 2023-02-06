@@ -17,6 +17,7 @@ opt.winblend = 0
 opt.wildoptions = 'pum'
 opt.pumblend = 5
 opt.background = 'dark'
+opt.completeopt = { 'menuone', 'noselect', 'noinsert' }
 opt.shiftwidth = 2
 opt.tabstop = 2
 opt.spell = true
