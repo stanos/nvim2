@@ -1,5 +1,6 @@
 local cmp = require("cmp")
 local luasnip = require("luasnip")
+local lspkind = require('lspkind')
 
 require("luasnip.loaders.from_vscode").lazy_load()
 
@@ -11,6 +12,10 @@ end
 cmp.setup({
 	mapping = cmp.mapping.preset.insert({
 		['<C-o>'] = cmp.mapping.complete(),
+		['<CR>'] = cmp.mapping.confirm({
+			behavior = cmp.ConfirmBehavior.Replace,
+			select = true
+		}),
 		["<Tab>"] = cmp.mapping(function(fallback)
 			if cmp.visible() then
 				cmp.select_next_item()
@@ -50,6 +55,9 @@ cmp.setup({
 		{ name = "path" },
 		{ name = "dictionary"},
 	}),
+	formatting = {
+    format = lspkind.cmp_format(),
+  },
 })
 
 require("cmp_git").setup()
