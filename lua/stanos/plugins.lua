@@ -13,6 +13,7 @@ return require('packer').startup(function(use)
 		'lewis6991/gitsigns.nvim',
 	}
 	use 'rcarriga/nvim-notify'
+	use 'RRethy/nvim-base16'
 	use {
     'saecki/crates.nvim',
     tag = 'v0.3.0',
