@@ -8,7 +8,6 @@ local M = {}
 -- the same as the colorscheme name itself.
 M.colorscheme2dir = {
 	catppuccin = "catppuccin",
-	windows = "nvim-base16.nvim",
 	tokyonight = "tokyonight.nvim",
 	nordfox = "nightfox.nvim"
 }

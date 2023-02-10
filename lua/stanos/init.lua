@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- Theme / Colorscheme
-vim.cmd [[colorscheme catppuccin]]
+--vim.cmd [[colorscheme catppuccin]]
 vim.cmd [[set timeoutlen=350]]
 
 -- numbers
