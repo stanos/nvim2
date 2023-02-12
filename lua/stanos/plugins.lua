@@ -8,6 +8,10 @@ return require('packer').startup(function(use)
 	use { 'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
 	use 'folke/tokyonight.nvim'
 	use { "catppuccin/nvim", as = "catppuccin" }
+	use 'arkav/lualine-lsp-progress'
+	use 'normen/vim-pio'
+	use 'jose-elias-alvarez/null-ls.nvim'
+	use 'norcalli/nvim-colorizer.lua'
 	use 'Yazeed1s/minimal.nvim'
 	use {
 		'lewis6991/gitsigns.nvim',
@@ -72,3 +76,4 @@ return require('packer').startup(function(use)
 		requires = { 'kyazdani42/nvim-web-devicons', opt = true }
 	}
 end)
+

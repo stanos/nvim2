@@ -15,3 +15,5 @@ vim.keymap.set('n', 'gll', ':LazyGit<CR>')
 
 vim.keymap.set('n', '<TAB>', ':BufferLineCycleNext<CR>')
 vim.keymap.set('n', '<S-TAB>', ':BufferLineCyclePrev<CR>')
+
+vim.keymap.set('n', 'te', ':tabe<CR>')

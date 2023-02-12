@@ -36,6 +36,7 @@ local on_attach = function(client, bufnr)
 	--vim.keymap.set('n', '<space>rn', vim.lsp.buf.rename, bufopts)
 	--buf_set_keymap('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>', opts)
 	buf_set_keymap('n', 'gii', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)
+	client.server_capabilities.semanticTokensProvider = nil
 	--buf_set_keymap('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>', opts)
 end
 
@@ -97,6 +98,20 @@ nvim_lsp.asm_lsp.setup {
 }
 
 nvim_lsp.clangd.setup {
+	cmd = { "clangd",
+		"--background-index",
+		"--clang-tidy",
+		"--compile_args_from=filesystem", -- lsp-> does not come from compie_commands.json
+		"--completion-parse=always",
+		"--completion-style=bundled",
+		"--cross-file-rename",
+		"--debug-origin",
+		"--function-arg-placeholders",
+		"--header-insertion=iwyu",
+		"-j=4",		-- number of workers
+		-- "--resource-dir="
+		"--suggest-missing-includes",
+	},
 	on_attach = on_attach,
 	capabilities = capabilities,
 }
@@ -104,35 +119,23 @@ nvim_lsp.clangd.setup {
 nvim_lsp.pyright.setup {
 	on_attach = on_attach,
 	capabilities = capabilities,
+	root_dir = function() return vim.loop.cwd() end
+
 }
 
 nvim_lsp.tsserver.setup {
 	on_attach = on_attach,
 	--filetypes = { "typescript", "typescriptreact", "typescript.tsx" },
-	cmd = { "typescript-language-server", "--stdio" },
+	cmd = { "typescript-language-server", "--stdio"},
 	capabilities = capabilities
 }
 
 
-nvim_lsp.sumneko_lua.setup {
+nvim_lsp.lua_ls.setup {
 	capabilities = capabilities,
 	on_attach = function(client, bufnr)
 		on_attach(client, bufnr)
 	end,
-	settings = {
-		Lua = {
-			diagnostics = {
-				-- Get the language server to recognize the `vim` global
-				globals = { 'vim' },
-			},
-
-			workspace = {
-				-- Make the server aware of Neovim runtime files
-				library = vim.api.nvim_get_runtime_file("", true),
-				checkThirdParty = false
-			},
-		},
-	},
 }
 
 
