@@ -10,6 +10,7 @@ return require('packer').startup(function(use)
 	use { "catppuccin/nvim", as = "catppuccin" }
 	use 'arkav/lualine-lsp-progress'
 	use 'normen/vim-pio'
+	use 'dracula/vim' 
 	use 'jose-elias-alvarez/null-ls.nvim'
 	use 'norcalli/nvim-colorizer.lua'
 	use 'Yazeed1s/minimal.nvim'
