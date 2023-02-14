@@ -19,6 +19,7 @@ opt.pumblend = 5
 opt.background = 'dark'
 opt.completeopt = { 'menuone', 'noselect', 'noinsert' }
 opt.shiftwidth = 2
+opt.undofile = true
 opt.tabstop = 2
 opt.spell = true
 vim.notify = require("notify")
