@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- Theme / Colorscheme
-vim.cmd [[colorscheme neosolarized]]
+vim.cmd [[colorscheme tokyonight-night]]
 vim.cmd [[set timeoutlen=350]]
 
 -- numbers
