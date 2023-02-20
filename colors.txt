@@ -1,0 +1,1324 @@
+@boolean                                                                      [000]  #ffa931
+@character                                                                    [001]  #fecb89
+@character.special                                                            [002]  #698269
+@class                                                                        [003]  #7db9b6
+@comment                                                                      [004]  #b9ac92
+@conditional                                                                  [005]  #b99b6b
+@constant                                                                     [000]  #ffa931
+@constant.builtin                                                             [002]  #698269
+@constant.macro                                                               [006]  #ff80ff
+@constructor                                                                  [002]  #698269
+@debug                                                                        [002]  #698269
+@decorator                                                                    [007]  #f1dbbf
+@define                                                                       [006]  #ff80ff
+@enum                                                                         [003]  #7db9b6
+@enumMember                                                                   [000]  #ffa931
+@event                                                                        [007]  #f1dbbf
+@exception                                                                    [005]  #b99b6b
+@field                                                                        [007]  #f1dbbf
+@float                                                                        [000]  #ffa931
+@function                                                                     [007]  #f1dbbf
+@function.builtin                                                             [002]  #698269
+@function.macro                                                               [006]  #ff80ff
+@include                                                                      [006]  #ff80ff
+@interface                                                                    [007]  #f1dbbf
+@keyword                                                                      [005]  #b99b6b
+@label                                                                        [005]  #b99b6b
+@macro                                                                        [006]  #ff80ff
+@method                                                                       [007]  #f1dbbf
+@modifier                                                                     [007]  #f1dbbf
+@namespace                                                                    [007]  #f1dbbf
+@number                                                                       [000]  #ffa931
+@operator                                                                     [005]  #b99b6b
+@parameter                                                                    [007]  #f1dbbf
+@preproc                                                                      [006]  #ff80ff
+@property                                                                     [007]  #f1dbbf
+@punctuation                                                                  [002]  #698269
+@regexp                                                                       [002]  #698269
+@repeat                                                                       [005]  #b99b6b
+@spell
+@storageclass                                                                 [003]  #7db9b6
+@string                                                                       [000]  #ffa931
+@string.escape                                                                [002]  #698269
+@string.special                                                               [002]  #698269
+@struct                                                                       [003]  #7db9b6
+@tag                                                                          [002]  #698269
+@text
+@text.literal                                                                 [004]  #b9ac92
+@text.reference                                                               [007]  #f1dbbf
+@text.title                                                                   [008]  Magenta
+@text.todo                                                   [009]  Yellow    [010]  #eee9da
+@text.underline                                                               [011]  #80a0ff
+@text.uri                                                                     [011]  #80a0ff
+@type                                                                         [003]  #7db9b6
+@type.definition                                                              [003]  #7db9b6
+@typeParameter                                                                [003]  #7db9b6
+@variable                                                                     [007]  #f1dbbf
+ActionPreviewBorder                                          [012]  #20262e   [013]  #61afef
+ActionPreviewNormal                                          [012]  #20262e
+ActionPreviewTitle                                           [012]  #20262e   [014]  #cba6f7
+Boolean                                                                       [000]  #ffa931
+BufferLineBackground                                         [015]  #181c22   [004]  #b9ac92
+BufferLineBuffer                                             [015]  #181c22   [004]  #b9ac92
+BufferLineBufferSelected                                     [012]  #20262e   [016]  #6096b4
+BufferLineBufferVisible                                      [017]  #1d222a   [004]  #b9ac92
+BufferLineCloseButton                                        [015]  #181c22   [004]  #b9ac92
+BufferLineCloseButtonSelected                                [012]  #20262e   [016]  #6096b4
+BufferLineCloseButtonVisible                                 [017]  #1d222a   [004]  #b9ac92
+BufferLineDevIconDefaultSelected                             [012]  #20262e   [018]  #6d8086
+BufferLineDevIconVimSelected                                 [012]  #20262e   [019]  #019833
+BufferLineDiagnostic                                         [015]  #181c22   [020]  #8a816d
+BufferLineDiagnosticSelected                                 [012]  #20262e   [021]  #487087
+BufferLineDiagnosticVisible                                  [017]  #1d222a   [020]  #8a816d
+BufferLineDuplicate                                          [015]  #181c22   [022]  #afa38a
+BufferLineDuplicateSelected                                  [012]  #20262e   [022]  #afa38a
+BufferLineDuplicateVisible                                   [017]  #1d222a   [022]  #afa38a
+BufferLineError                                              [015]  #181c22   [004]  #b9ac92
+BufferLineErrorDiagnostic                                    [015]  #181c22   [020]  #8a816d
+BufferLineErrorDiagnosticSelected                            [012]  #20262e   [023]  #bf0000
+BufferLineErrorDiagnosticVisible                             [017]  #1d222a   [020]  #8a816d
+BufferLineErrorSelected                                      [012]  #20262e   [024]  #ff0000
+BufferLineErrorVisible                                       [017]  #1d222a   [004]  #b9ac92
+BufferLineFill                                               [025]  #111419   [004]  #b9ac92
+BufferLineGroupLabel                                         [004]  #b9ac92   [025]  #111419
+BufferLineGroupSeparator                                     [025]  #111419   [004]  #b9ac92
+BufferLineHint                                               [015]  #181c22   [004]  #b9ac92
+BufferLineHintDiagnostic                                     [015]  #181c22   [020]  #8a816d
+BufferLineHintDiagnosticSelected                             [012]  #20262e   [026]  #9e9e9e
+BufferLineHintDiagnosticVisible                              [017]  #1d222a   [020]  #8a816d
+BufferLineHintSelected                                       [012]  #20262e   [027]  #d3d3d3
+BufferLineHintVisible                                        [017]  #1d222a   [004]  #b9ac92
+BufferLineIndicatorSelected                                  [012]  #20262e   [028]  #000000
+BufferLineIndicatorVisible                                   [017]  #1d222a   [017]  #1d222a
+BufferLineInfo                                               [015]  #181c22   [004]  #b9ac92
+BufferLineInfoDiagnostic                                     [015]  #181c22   [020]  #8a816d
+BufferLineInfoDiagnosticSelected                             [012]  #20262e   [029]  #81a2ac
+BufferLineInfoDiagnosticVisible                              [017]  #1d222a   [020]  #8a816d
+BufferLineInfoSelected                                       [012]  #20262e   [030]  #add8e6
+BufferLineInfoVisible                                        [017]  #1d222a   [004]  #b9ac92
+BufferLineModified                                           [015]  #181c22   [000]  #ffa931
+BufferLineModifiedSelected                                   [012]  #20262e   [000]  #ffa931
+BufferLineModifiedVisible                                    [017]  #1d222a   [000]  #ffa931
+BufferLineNumbers                                            [015]  #181c22   [004]  #b9ac92
+BufferLineNumbersSelected                                    [012]  #20262e   [016]  #6096b4
+BufferLineNumbersVisible                                     [017]  #1d222a   [004]  #b9ac92
+BufferLineOffsetSeparator                                    [025]  #111419   [016]  #6096b4
+BufferLinePick                                               [015]  #181c22   [024]  #ff0000
+BufferLinePickSelected                                       [012]  #20262e   [024]  #ff0000
+BufferLinePickVisible                                        [017]  #1d222a   [024]  #ff0000
+BufferLineSeparator                                          [015]  #181c22   [025]  #111419
+BufferLineSeparatorSelected                                  [012]  #20262e   [025]  #111419
+BufferLineSeparatorVisible                                   [017]  #1d222a   [025]  #111419
+BufferLineTab                                                [015]  #181c22   [004]  #b9ac92
+BufferLineTabClose                                           [015]  #181c22   [004]  #b9ac92
+BufferLineTabSelected                                        [012]  #20262e   [028]  #000000
+BufferLineTabSeparator                                       [015]  #181c22   [025]  #111419
+BufferLineTabSeparatorSelected                               [012]  #20262e   [025]  #111419
+BufferLineWarning                                            [015]  #181c22   [004]  #b9ac92
+BufferLineWarningDiagnostic                                  [015]  #181c22   [020]  #8a816d
+BufferLineWarningDiagnosticSelected                          [012]  #20262e   [031]  #bf7b00
+BufferLineWarningDiagnosticVisible                           [017]  #1d222a   [020]  #8a816d
+BufferLineWarningSelected                                    [012]  #20262e   [032]  #ffa500
+BufferLineWarningVisible                                     [017]  #1d222a   [004]  #b9ac92
+CallHierarchyBorder                                          [012]  #20262e   [013]  #61afef
+CallHierarchyIcon                                                             [014]  #cba6f7
+CallHierarchyNormal                                          [012]  #20262e
+CallHierarchyTitle                                                            [033]  #e95678
+Character                                                                     [001]  #fecb89
+cheatCode                                                                     [005]  #b99b6b
+cheatComment                                                                  [004]  #b9ac92
+cheatDescription                                                              [000]  #ffa931
+cheatMetadataComment                                                          [004]  #b9ac92
+cheatMetadataSection                                                          [003]  #7db9b6
+cheatMetadataTag                                                              [006]  #ff80ff
+cheatSeparator                                                                [005]  #b99b6b
+CmpItemAbbr
+CmpItemAbbrDefault
+CmpItemAbbrDeprecated                                                         [004]  #b9ac92
+CmpItemAbbrDeprecatedDefault                                                  [004]  #b9ac92
+CmpItemAbbrMatch                                             [034]  #352e2e
+CmpItemAbbrMatchDefault
+CmpItemAbbrMatchFuzzy
+CmpItemAbbrMatchFuzzyDefault
+CmpItemKind                                                                   [002]  #698269
+CmpItemKindClass                                                              [002]  #698269
+CmpItemKindClassDefault                                                       [002]  #698269
+CmpItemKindColor                                                              [002]  #698269
+CmpItemKindColorDefault                                                       [002]  #698269
+CmpItemKindConstant                                                           [002]  #698269
+CmpItemKindConstantDefault                                                    [002]  #698269
+CmpItemKindConstructor                                                        [002]  #698269
+CmpItemKindConstructorDefault                                                 [002]  #698269
+CmpItemKindDefault                                                            [002]  #698269
+CmpItemKindEnum                                                               [002]  #698269
+CmpItemKindEnumDefault                                                        [002]  #698269
+CmpItemKindEnumMember                                                         [002]  #698269
+CmpItemKindEnumMemberDefault                                                  [002]  #698269
+CmpItemKindEvent                                                              [002]  #698269
+CmpItemKindEventDefault                                                       [002]  #698269
+CmpItemKindField                                                              [002]  #698269
+CmpItemKindFieldDefault                                                       [002]  #698269
+CmpItemKindFile                                                               [002]  #698269
+CmpItemKindFileDefault                                                        [002]  #698269
+CmpItemKindFolder                                                             [002]  #698269
+CmpItemKindFolderDefault                                                      [002]  #698269
+CmpItemKindFunction                                                           [002]  #698269
+CmpItemKindFunctionDefault                                                    [002]  #698269
+CmpItemKindInterface                                                          [002]  #698269
+CmpItemKindInterfaceDefault                                                   [002]  #698269
+CmpItemKindKeyword                                                            [002]  #698269
+CmpItemKindKeywordDefault                                                     [002]  #698269
+CmpItemKindMethod                                                             [002]  #698269
+CmpItemKindMethodDefault                                                      [002]  #698269
+CmpItemKindModule                                                             [002]  #698269
+CmpItemKindModuleDefault                                                      [002]  #698269
+CmpItemKindOperator                                                           [002]  #698269
+CmpItemKindOperatorDefault                                                    [002]  #698269
+CmpItemKindProperty                                                           [002]  #698269
+CmpItemKindPropertyDefault                                                    [002]  #698269
+CmpItemKindReference                                                          [002]  #698269
+CmpItemKindReferenceDefault                                                   [002]  #698269
+CmpItemKindSnippet                                                            [002]  #698269
+CmpItemKindSnippetDefault                                                     [002]  #698269
+CmpItemKindStruct                                                             [002]  #698269
+CmpItemKindStructDefault                                                      [002]  #698269
+CmpItemKindText                                                               [002]  #698269
+CmpItemKindTextDefault                                                        [002]  #698269
+CmpItemKindTypeParameter                                                      [002]  #698269
+CmpItemKindTypeParameterDefault                                               [002]  #698269
+CmpItemKindUnit                                                               [002]  #698269
+CmpItemKindUnitDefault                                                        [002]  #698269
+CmpItemKindValue                                                              [002]  #698269
+CmpItemKindValueDefault                                                       [002]  #698269
+CmpItemKindVariable                                                           [002]  #698269
+CmpItemKindVariableDefault                                                    [002]  #698269
+CmpItemMenu                                                  [034]  #352e2e
+CmpItemMenuDefault
+CodeActionBorder                                             [012]  #20262e   [013]  #61afef
+CodeActionNormal                                             [012]  #20262e
+CodeActionNumber                                                              [035]  #afd700
+CodeActionText                                                                [036]  #ff8700
+ColorColumn                                                  [037]  DarkRed
+colorizer_mb_20262e                                          [012]  #20262e   [038]  White
+colorizer_mb_352e2e                                          [034]  #352e2e   [038]  White
+colorizer_mb_525252                                          [039]  #525252   [038]  White
+colorizer_mb_6096b4                                          [016]  #6096b4   [040]  Black
+colorizer_mb_698269                                          [002]  #698269   [038]  White
+colorizer_mb_7db9b6                                          [003]  #7db9b6   [040]  Black
+colorizer_mb_7de9e9                                          [041]  #7de9e9   [040]  Black
+colorizer_mb_913175                                          [042]  #913175   [038]  White
+colorizer_mb_aa5656                                          [043]  #aa5656   [038]  White
+colorizer_mb_b99b6b                                          [005]  #b99b6b   [040]  Black
+colorizer_mb_b9ac92                                          [004]  #b9ac92   [040]  Black
+colorizer_mb_e9e8e8                                          [044]  #e9e8e8   [040]  Black
+colorizer_mb_eee9da                                          [010]  #eee9da   [040]  Black
+colorizer_mb_f1dbbf                                          [007]  #f1dbbf   [040]  Black
+colorizer_mb_fcba03                                          [045]  #fcba03   [040]  Black
+colorizer_mb_fecb89                                          [001]  #fecb89   [040]  Black
+colorizer_mb_ff8700                                          [036]  #ff8700   [040]  Black
+colorizer_mb_ffa931                                          [000]  #ffa931   [040]  Black
+Comment                                                                       [004]  #b9ac92
+Conceal                                                      [046]  DarkGrey  [047]  LightGrey
+Conditional                                                                   [005]  #b99b6b
+Constant                                                                      [000]  #ffa931
+CratesNvimError                                                               [048]  Red
+CratesNvimLoading                                                             [049]  LightBlue
+CratesNvimNoMatch                                                             [048]  Red
+CratesNvimPopupBuildDependenciesTitle                                         [005]  #b99b6b
+CratesNvimPopupDependency
+CratesNvimPopupDependencyVersion                                              [000]  #ffa931
+CratesNvimPopupDescription                                                    [004]  #b9ac92
+CratesNvimPopupDevDependenciesTitle                                           [005]  #b99b6b
+CratesNvimPopupEnabled                                                        [050]  #23ab49
+CratesNvimPopupFeature
+CratesNvimPopupLabel                                                          [007]  #f1dbbf
+CratesNvimPopupLoading                                                        [002]  #698269
+CratesNvimPopupNormalDependenciesTitle                                        [005]  #b99b6b
+CratesNvimPopupOptional                                                       [004]  #b9ac92
+CratesNvimPopupPillBorder                                                     [051]  #3a3a3a
+CratesNvimPopupPillText                                      [051]  #3a3a3a   [052]  #e0e0e0
+CratesNvimPopupPreRelease                                                     [053]  Orange
+CratesNvimPopupTitle                                                          [008]  Magenta
+CratesNvimPopupTransitive                                                     [054]  #238bb9
+CratesNvimPopupUrl                                                            [011]  #80a0ff
+CratesNvimPopupValue                                                          [000]  #ffa931
+CratesNvimPopupVersion
+CratesNvimPopupVersionDate                                                    [004]  #b9ac92
+CratesNvimPopupYanked                                                         [048]  Red
+CratesNvimPreRelease                                                          [053]  Orange
+CratesNvimUpgrade                                                             [053]  Orange
+CratesNvimVersion                                                             [049]  LightBlue
+CratesNvimYanked                                                              [048]  Red
+CurSearch
+Cursor                                                       [055]  fg        [056]  bg
+CursorColumn                                                 [057]  Grey40
+CursorLine                                                   [039]  #525252
+CursorLineFold                                               [058]  Grey      [059]  Cyan
+CursorLineNr                                                                  [009]  Yellow
+CursorLineSign                                               [058]  Grey      [059]  Cyan
+Debug                                                                         [002]  #698269
+Default
+Define                                                                        [006]  #ff80ff
+DefinitionBorder                                             [012]  #20262e   [013]  #61afef
+DefinitionNormal                                             [012]  #20262e
+DefinitionSearch                                             [009]  Yellow    [040]  Black
+Delimiter                                                                     [002]  #698269
+DevIconAi                                                                     [060]  #cbcb41
+DevIconAwk                                                                    [061]  #4d5a5e
+DevIconBabelrc                                                                [060]  #cbcb41
+DevIconBash                                                                   [062]  #89e051
+DevIconBashProfile                                                            [062]  #89e051
+DevIconBashrc                                                                 [062]  #89e051
+DevIconBat                                                                    [063]  #c1f12e
+DevIconBinaryGLTF                                                             [064]  #ffb13b
+DevIconBmp                                                                    [065]  #a074c4
+DevIconBrewfile                                                               [066]  #701516
+DevIconC                                                                      [067]  #599eff
+DevIconClojure                                                                [068]  #8dc149
+DevIconClojureC                                                               [068]  #8dc149
+DevIconClojureDart                                                            [069]  #519aba
+DevIconClojureJS                                                              [069]  #519aba
+DevIconCMake                                                                  [018]  #6d8086
+DevIconCMakeLists                                                             [018]  #6d8086
+DevIconCobol                                                                  [070]  #005ca5
+DevIconCoffee                                                                 [060]  #cbcb41
+DevIconConf                                                                   [018]  #6d8086
+DevIconConfigRu                                                               [066]  #701516
+DevIconConfiguration                                                          [071]  #ececec
+DevIconCp                                                                     [069]  #519aba
+DevIconCPlusPlus                                                              [072]  #f34b7d
+DevIconCpp                                                                    [069]  #519aba
+DevIconCrystal                                                                [028]  #000000
+DevIconCs                                                                     [073]  #596706
+DevIconCsh                                                                    [061]  #4d5a5e
+DevIconCson                                                                   [060]  #cbcb41
+DevIconCss                                                                    [074]  #42a5f5
+DevIconCsv                                                                    [062]  #89e051
+DevIconCxx                                                                    [069]  #519aba
+DevIconD                                                                      [075]  #427819
+DevIconDart                                                                   [076]  #03589c
+DevIconDb                                                                     [077]  #dad8d8
+DevIconDefault                                                                [018]  #6d8086
+DevIconDesktopEntry                                                           [078]  #563d7c
+DevIconDiff                                                                   [079]  #41535b
+DevIconDoc                                                                    [080]  #185abd
+DevIconDockerfile                                                             [081]  #384d54
+DevIconDrools                                                                 [082]  #ffafaf
+DevIconDropbox                                                                [083]  #0061fe
+DevIconDsStore                                                                [079]  #41535b
+DevIconDump                                                                   [077]  #dad8d8
+DevIconEdn                                                                    [069]  #519aba
+DevIconEex                                                                    [065]  #a074c4
+DevIconEjs                                                                    [060]  #cbcb41
+DevIconElm                                                                    [069]  #519aba
+DevIconEnv                                                                    [084]  #faf743
+DevIconEpp                                                                    [085]  #ffa61a
+DevIconErb                                                                    [066]  #701516
+DevIconErl                                                                    [086]  #b83998
+DevIconEx                                                                     [065]  #a074c4
+DevIconExs                                                                    [065]  #a074c4
+DevIconFavicon                                                                [060]  #cbcb41
+DevIconFennel                                                                 [087]  #fff3d7
+DevIconFish                                                                   [061]  #4d5a5e
+DevIconFs                                                                     [069]  #519aba
+DevIconFsharp                                                                 [069]  #519aba
+DevIconFsi                                                                    [069]  #519aba
+DevIconFsscript                                                               [069]  #519aba
+DevIconFsx                                                                    [069]  #519aba
+DevIconGDScript                                                               [018]  #6d8086
+DevIconGemfile                                                                [066]  #701516
+DevIconGemspec                                                                [066]  #701516
+DevIconGif                                                                    [065]  #a074c4
+DevIconGitAttributes                                                          [079]  #41535b
+DevIconGitCommit                                                              [079]  #41535b
+DevIconGitConfig                                                              [079]  #41535b
+DevIconGitIgnore                                                              [079]  #41535b
+DevIconGitlabCI                                                               [088]  #e24329
+DevIconGitLogo                                                                [089]  #f14c28
+DevIconGitModules                                                             [079]  #41535b
+DevIconGo                                                                     [069]  #519aba
+DevIconGodotProject                                                           [018]  #6d8086
+DevIconGraphQL                                                                [090]  #e535ab
+DevIconGruntfile                                                              [091]  #e37933
+DevIconGulpfile                                                               [092]  #cc3e44
+DevIconGvimrc                                                                 [019]  #019833
+DevIconH                                                                      [065]  #a074c4
+DevIconHaml                                                                   [093]  #eaeae1
+DevIconHbs                                                                    [094]  #f0772b
+DevIconHeex                                                                   [065]  #a074c4
+DevIconHh                                                                     [065]  #a074c4
+DevIconHpp                                                                    [065]  #a074c4
+DevIconHrl                                                                    [086]  #b83998
+DevIconHs                                                                     [065]  #a074c4
+DevIconHtm                                                                    [095]  #e34c26
+DevIconHtml                                                                   [096]  #e44d26
+DevIconHxx                                                                    [065]  #a074c4
+DevIconIco                                                                    [060]  #cbcb41
+DevIconImportConfiguration                                                    [071]  #ececec
+DevIconIni                                                                    [018]  #6d8086
+DevIconJava                                                                   [092]  #cc3e44
+DevIconJl                                                                     [097]  #a270ba
+DevIconJpeg                                                                   [065]  #a074c4
+DevIconJpg                                                                    [065]  #a074c4
+DevIconJs                                                                     [060]  #cbcb41
+DevIconJson                                                                   [060]  #cbcb41
+DevIconJson5                                                                  [060]  #cbcb41
+DevIconJsx                                                                    [069]  #519aba
+DevIconKotlin                                                                 [098]  #7f52ff
+DevIconKotlinScript                                                           [098]  #7f52ff
+DevIconKsh                                                                    [061]  #4d5a5e
+DevIconLeex                                                                   [065]  #a074c4
+DevIconLess                                                                   [078]  #563d7c
+DevIconLhs                                                                    [065]  #a074c4
+DevIconLicense                                                                [060]  #cbcb41
+DevIconLock                                                                   [099]  #bbbbbb
+DevIconLog                                                                    [100]  #ffffff
+DevIconLua                                                                    [101]  #51a0cf
+DevIconLuau                                                                   [101]  #51a0cf
+DevIconMakefile                                                               [018]  #6d8086
+DevIconMarkdown                                                               [069]  #519aba
+DevIconMaterial                                                               [086]  #b83998
+DevIconMd                                                                     [100]  #ffffff
+DevIconMdx                                                                    [069]  #519aba
+DevIconMint                                                                   [102]  #87c095
+DevIconMixLock                                                                [065]  #a074c4
+DevIconMjs                                                                    [103]  #f1e05a
+DevIconMl                                                                     [091]  #e37933
+DevIconMli                                                                    [091]  #e37933
+DevIconMotoko                                                                 [104]  #9772fb
+DevIconMustache                                                               [091]  #e37933
+DevIconNim                                                                    [105]  #f3d400
+DevIconNix                                                                    [106]  #7ebae4
+DevIconNodeModules                                                            [107]  #e8274b
+DevIconNPMIgnore                                                              [107]  #e8274b
+DevIconNPMrc                                                                  [107]  #e8274b
+DevIconOpenTypeFont                                                           [071]  #ececec
+DevIconOPUS                                                                   [108]  #f88a02
+DevIconPackageJson                                                            [107]  #e8274b
+DevIconPackageLockJson                                                        [109]  #7a0d21
+DevIconPackedResource                                                         [018]  #6d8086
+DevIconPdf                                                                    [110]  #b30b00
+DevIconPhp                                                                    [065]  #a074c4
+DevIconPl                                                                     [069]  #519aba
+DevIconPm                                                                     [069]  #519aba
+DevIconPng                                                                    [065]  #a074c4
+DevIconPp                                                                     [085]  #ffa61a
+DevIconPpt                                                                    [111]  #cb4a32
+DevIconPrisma                                                                 [100]  #ffffff
+DevIconProcfile                                                               [065]  #a074c4
+DevIconProlog                                                                 [112]  #e4b854
+DevIconPsb                                                                    [069]  #519aba
+DevIconPsd                                                                    [069]  #519aba
+DevIconPsManifestfile                                                         [113]  #6975c4
+DevIconPsScriptfile                                                           [114]  #4273ca
+DevIconPsScriptModulefile                                                     [113]  #6975c4
+DevIconPy                                                                     [115]  #ffbc03
+DevIconPyc                                                                    [116]  #ffe291
+DevIconPyd                                                                    [116]  #ffe291
+DevIconPyo                                                                    [116]  #ffe291
+DevIconQuery                                                                  [117]  #90a850
+DevIconR                                                                      [118]  #358a5b
+DevIconRake                                                                   [066]  #701516
+DevIconRakefile                                                               [066]  #701516
+DevIconRb                                                                     [066]  #701516
+DevIconRlib                                                                   [119]  #dea584
+DevIconRmd                                                                    [069]  #519aba
+DevIconRproj                                                                  [118]  #358a5b
+DevIconRs                                                                     [119]  #dea584
+DevIconRss                                                                    [120]  #fb9d3b
+DevIconSass                                                                   [121]  #f55385
+DevIconsbt                                                                    [092]  #cc3e44
+DevIconScala                                                                  [092]  #cc3e44
+DevIconScheme                                                                 [028]  #000000
+DevIconScss                                                                   [121]  #f55385
+DevIconSettingsJson                                                           [122]  #854cc7
+DevIconSh                                                                     [061]  #4d5a5e
+DevIconSig                                                                    [091]  #e37933
+DevIconSlim                                                                   [095]  #e34c26
+DevIconSln                                                                    [122]  #854cc7
+DevIconSml                                                                    [091]  #e37933
+DevIconSolidity                                                               [069]  #519aba
+DevIconSql                                                                    [077]  #dad8d8
+DevIconStyl                                                                   [068]  #8dc149
+DevIconSuo                                                                    [091]  #e37933
+DevIconSvelte                                                                 [123]  #ff3e00
+DevIconSvg                                                                    [064]  #ffb13b
+DevIconSwift                                                                  [091]  #e37933
+DevIconSystemVerilog                                                          [019]  #019833
+DevIconTcl                                                                    [124]  #1e5cb3
+DevIconTerminal                                                               [125]  #31b53e
+DevIconTerraform                                                              [126]  #5f43e9
+DevIconTestJs                                                                 [091]  #e37933
+DevIconTex                                                                    [127]  #3d6117
+DevIconTextResource                                                           [060]  #cbcb41
+DevIconTextScene                                                              [065]  #a074c4
+DevIconTFVars                                                                 [126]  #5f43e9
+DevIconToml                                                                   [018]  #6d8086
+DevIconTor                                                                    [069]  #519aba
+DevIconTs                                                                     [069]  #519aba
+DevIconTsx                                                                    [069]  #519aba
+DevIconTwig                                                                   [068]  #8dc149
+DevIconTxt                                                                    [062]  #89e051
+DevIconVagrantfile                                                            [128]  #1563ff
+DevIconVala                                                                   [129]  #7239b3
+DevIconVerilog                                                                [019]  #019833
+DevIconVHDL                                                                   [019]  #019833
+DevIconVim                                                                    [019]  #019833
+DevIconVimrc                                                                  [019]  #019833
+DevIconVue                                                                    [068]  #8dc149
+DevIconWasm                                                                   [130]  #5c4cdb
+DevIconWebmanifest                                                            [103]  #f1e05a
+DevIconWebp                                                                   [065]  #a074c4
+DevIconWebpack                                                                [069]  #519aba
+DevIconXcPlayground                                                           [091]  #e37933
+DevIconXls                                                                    [131]  #207245
+DevIconXml                                                                    [091]  #e37933
+DevIconXul                                                                    [091]  #e37933
+DevIconYaml                                                                   [018]  #6d8086
+DevIconYml                                                                    [018]  #6d8086
+DevIconZig                                                                    [132]  #f69a1b
+DevIconZsh                                                                    [062]  #89e051
+DevIconZshenv                                                                 [062]  #89e051
+DevIconZshprofile                                                             [062]  #89e051
+DevIconZshrc                                                                  [062]  #89e051
+DiagnosticBorder                                             [012]  #20262e   [013]  #61afef
+DiagnosticError                                                               [048]  Red
+DiagnosticFloatingError                                                       [048]  Red
+DiagnosticFloatingHint                                                        [047]  LightGrey
+DiagnosticFloatingInfo                                                        [049]  LightBlue
+DiagnosticFloatingOk                                                          [133]  LightGreen
+DiagnosticFloatingWarn                                                        [053]  Orange
+DiagnosticHint                                                                [047]  LightGrey
+DiagnosticInfo                                                                [049]  LightBlue
+DiagnosticNormal                                             [012]  #20262e
+DiagnosticOk                                                                  [133]  LightGreen
+DiagnosticPos                                                                 [134]  #6e6b6b
+Diagnostics                                                                   [002]  #698269
+DiagnosticSignError                                                           [048]  Red
+DiagnosticSignHint                                                            [047]  LightGrey
+DiagnosticSignInfo                                                            [049]  LightBlue
+DiagnosticSignOk                                                              [133]  LightGreen
+DiagnosticSignWarn                                                            [053]  Orange
+DiagnosticSource                                                              [135]  Gray
+DiagnosticUnderlineError
+DiagnosticUnderlineHint
+DiagnosticUnderlineInfo
+DiagnosticUnderlineOk
+DiagnosticUnderlineWarn
+DiagnosticVirtualTextError                                                    [048]  Red
+DiagnosticVirtualTextHint                                                     [047]  LightGrey
+DiagnosticVirtualTextInfo                                                     [049]  LightBlue
+DiagnosticVirtualTextOk                                                       [133]  LightGreen
+DiagnosticVirtualTextWarn                                                     [053]  Orange
+DiagnosticWarn                                                                [053]  Orange
+DiagnosticWord                                                                [136]  #f2f2bf
+DiffAdd                                                      [012]  #20262e   [041]  #7de9e9
+DiffChange                                                   [012]  #20262e   [036]  #ff8700
+DiffDelete                                                   [012]  #20262e   [043]  #aa5656
+DiffText                                                     [048]  Red
+Directory                                                                     [045]  #fcba03
+EndOfBuffer                                                  [012]  #20262e   [016]  #6096b4
+Error                                                        [048]  Red       [043]  #aa5656
+ErrorMsg                                                     [048]  Red       [038]  White
+Exception                                                                     [005]  #b99b6b
+FinderBorder                                                 [012]  #20262e   [013]  #61afef
+FinderCount                                                                   [005]  #b99b6b
+FinderFileName                                                                [137]  #d1d4cf
+FinderIcon                                                                    [138]  #36d0e0
+FinderNormal                                                 [012]  #20262e
+FinderPreviewBorder                                          [012]  #20262e   [013]  #61afef
+FinderPreviewSearch                                          [009]  Yellow    [040]  Black
+FinderSelection                                                               [138]  #36d0e0
+FinderSpinner                                                                 [139]  #b33076
+FinderSpinnerTitle                                                            [139]  #b33076
+FinderType                                                                    [014]  #cba6f7
+FinderVirtText                                                                [033]  #e95678
+Float                                                                         [000]  #ffa931
+FloatBorder                                                  [012]  #20262e   [016]  #6096b4
+FloatShadow                                                  [040]  Black
+FloatShadowThrough                                           [040]  Black
+FloatTitle                                                   [034]  #352e2e
+FoldColumn                                                   [058]  Grey      [059]  Cyan
+Folded                                                       [046]  DarkGrey  [059]  Cyan
+Function                                                                      [007]  #f1dbbf
+GitSignsAdd                                                  [012]  #20262e   [041]  #7de9e9
+GitSignsAddInline
+GitSignsAddLn                                                [012]  #20262e   [041]  #7de9e9
+GitSignsAddLnInline
+GitSignsAddNr                                                [012]  #20262e   [041]  #7de9e9
+GitSignsAddPreview                                           [012]  #20262e   [041]  #7de9e9
+GitSignsChange                                               [012]  #20262e   [036]  #ff8700
+GitSignsChangedelete                                         [012]  #20262e   [036]  #ff8700
+GitSignsChangedeleteLn                                       [012]  #20262e   [036]  #ff8700
+GitSignsChangedeleteNr                                       [012]  #20262e   [036]  #ff8700
+GitSignsChangeInline
+GitSignsChangeLn                                             [012]  #20262e   [036]  #ff8700
+GitSignsChangeLnInline
+GitSignsChangeNr                                             [012]  #20262e   [036]  #ff8700
+GitSignsCurrentLineBlame                                                      [140]  Blue
+GitSignsDelete                                               [012]  #20262e   [043]  #aa5656
+GitSignsDeleteInline
+GitSignsDeleteLnInline
+GitSignsDeleteNr                                             [012]  #20262e   [043]  #aa5656
+GitSignsDeletePreview                                        [012]  #20262e   [043]  #aa5656
+GitSignsDeleteVirtLn                                         [012]  #20262e   [043]  #aa5656
+GitSignsDeleteVirtLnInLine
+GitSignsStagedAdd                                            [012]  #20262e   [141]  #3e7474
+GitSignsStagedAddLn                                          [012]  #20262e   [141]  #3e7474
+GitSignsStagedAddNr                                          [012]  #20262e   [141]  #3e7474
+GitSignsStagedChange                                         [012]  #20262e   [142]  #7f4300
+GitSignsStagedChangedelete                                   [012]  #20262e   [142]  #7f4300
+GitSignsStagedChangedeleteLn                                 [012]  #20262e   [142]  #7f4300
+GitSignsStagedChangedeleteNr                                 [012]  #20262e   [142]  #7f4300
+GitSignsStagedChangeLn                                       [012]  #20262e   [142]  #7f4300
+GitSignsStagedChangeNr                                       [012]  #20262e   [142]  #7f4300
+GitSignsStagedDelete                                         [012]  #20262e   [143]  #552b2b
+GitSignsStagedDeleteNr                                       [012]  #20262e   [143]  #552b2b
+GitSignsStagedTopdelete                                      [012]  #20262e   [143]  #552b2b
+GitSignsStagedTopdeleteNr                                    [012]  #20262e   [143]  #552b2b
+GitSignsTopdelete                                            [012]  #20262e   [043]  #aa5656
+GitSignsTopdeleteNr                                          [012]  #20262e   [043]  #aa5656
+GitSignsUntracked                                            [012]  #20262e   [041]  #7de9e9
+GitSignsUntrackedLn                                          [012]  #20262e   [041]  #7de9e9
+GitSignsUntrackedNr                                          [012]  #20262e   [041]  #7de9e9
+HoverBorder                                                  [012]  #20262e   [013]  #61afef
+HoverNormal                                                  [012]  #20262e
+Identifier                                                                    [007]  #f1dbbf
+Ignore                                                                        [056]  bg
+Include                                                                       [006]  #ff80ff
+IncSearch
+Keyword                                                                       [005]  #b99b6b
+Label                                                                         [005]  #b99b6b
+lCursor                                                      [055]  fg        [056]  bg
+LineNr                                                                        [005]  #b99b6b
+LineNrAbove                                                                   [005]  #b99b6b
+LineNrBelow                                                                   [005]  #b99b6b
+LSOutlineArray                                                                [013]  #61afef
+LSOutlineBoolean                                                              [036]  #ff8700
+LSOutlineClass                                                                [014]  #cba6f7
+LSOutlineConstant                                                             [138]  #36d0e0
+LSOutlineConstructor                                                          [013]  #61afef
+LSOutlineEnum                                                                 [035]  #afd700
+LSOutlineEnumMember                                                           [035]  #afd700
+LSOutlineEvent                                                                [014]  #cba6f7
+LSOutlineField                                                                [144]  #f7bb3b
+LSOutlineFile                                                                 [137]  #d1d4cf
+LSOutlineFolder                                                               [144]  #f7bb3b
+LSOutlineFunction                                                             [014]  #cba6f7
+LSOutlineInterface                                                            [036]  #ff8700
+LSOutlineKey                                                                  [033]  #e95678
+LSOutlineMacro                                                                [033]  #e95678
+LSOutlineMethod                                                               [014]  #cba6f7
+LSOutlineModule                                                               [013]  #61afef
+LSOutlineNamespace                                                            [036]  #ff8700
+LSOutlineNull                                                                 [033]  #e95678
+LSOutlineNumber                                                               [035]  #afd700
+LSOutlineObject                                                               [036]  #ff8700
+LSOutlineOperator                                                             [035]  #afd700
+LSOutlinePackage                                                              [014]  #cba6f7
+LSOutlineParameter                                                            [013]  #61afef
+LSOutlineProperty                                                             [138]  #36d0e0
+LSOutlineSnippet                                                              [013]  #61afef
+LSOutlineStaticMethod                                                         [036]  #ff8700
+LSOutlineString                                                               [035]  #afd700
+LSOutlineStruct                                                               [014]  #cba6f7
+LSOutlineText                                                                 [035]  #afd700
+LSOutlineTypeAlias                                                            [035]  #afd700
+LSOutlineTypeParameter                                                        [035]  #afd700
+LSOutlineUnit                                                                 [138]  #36d0e0
+LSOutlineValue                                                                [013]  #61afef
+LSOutlineVariable                                                             [013]  #61afef
+LspInfoBorder                                                                 [005]  #b99b6b
+LspInfoFiletype                                                               [003]  #7db9b6
+LspInfoList                                                                   [007]  #f1dbbf
+LspInfoTip                                                                    [004]  #b9ac92
+LspInfoTitle                                                                  [008]  Magenta
+LspSagaLightBulb                                                              [047]  LightGrey
+LspSagaWinbarArray                                                            [013]  #61afef
+LspSagaWinbarBoolean                                                          [036]  #ff8700
+LspSagaWinbarClass                                                            [014]  #cba6f7
+LspSagaWinbarConstant                                                         [138]  #36d0e0
+LspSagaWinbarConstructor                                                      [013]  #61afef
+LspSagaWinbarEnum                                                             [035]  #afd700
+LspSagaWinbarEnumMember                                                       [035]  #afd700
+LspSagaWinbarEvent                                                            [014]  #cba6f7
+LspSagaWinbarField                                                            [144]  #f7bb3b
+LspSagaWinbarFile                                                             [137]  #d1d4cf
+LspSagaWinbarFileIcon                                                         [019]  #019833
+LspSagaWinbarFolder                                                           [144]  #f7bb3b
+LspSagaWinbarFolderName                                                       [136]  #f2f2bf
+LspSagaWinbarFunction                                                         [014]  #cba6f7
+LspSagaWinbarInterface                                                        [036]  #ff8700
+LspSagaWinbarKey                                                              [033]  #e95678
+LspSagaWinbarMacro                                                            [033]  #e95678
+LspSagaWinbarMethod                                                           [014]  #cba6f7
+LspSagaWinbarModule                                                           [013]  #61afef
+LspSagaWinbarNamespace                                                        [036]  #ff8700
+LspSagaWinbarNull                                                             [033]  #e95678
+LspSagaWinbarNumber                                                           [035]  #afd700
+LspSagaWinbarObject                                                           [036]  #ff8700
+LspSagaWinbarOperator                                                         [035]  #afd700
+LspSagaWinbarPackage                                                          [014]  #cba6f7
+LspSagaWinbarParameter                                                        [013]  #61afef
+LspSagaWinbarProperty                                                         [138]  #36d0e0
+LspSagaWinbarSep                                                              [033]  #e95678
+LspSagaWinbarSnippet                                                          [013]  #61afef
+LspSagaWinbarStaticMethod                                                     [036]  #ff8700
+LspSagaWinbarString                                                           [035]  #afd700
+LspSagaWinbarStruct                                                           [014]  #cba6f7
+LspSagaWinbarText                                                             [035]  #afd700
+LspSagaWinbarTypeAlias                                                        [035]  #afd700
+LspSagaWinbarTypeParameter                                                    [035]  #afd700
+LspSagaWinbarUnit                                                             [138]  #36d0e0
+LspSagaWinbarValue                                                            [013]  #61afef
+LspSagaWinbarVariable                                                         [013]  #61afef
+LspSagaWinbarWord                                                             [137]  #d1d4cf
+luaBlock
+luaComment                                                                    [004]  #b9ac92
+luaCommentDelimiter                                                           [004]  #b9ac92
+luaCond                                                                       [005]  #b99b6b
+luaCondElse                                                                   [005]  #b99b6b
+luaCondElseif
+luaCondEnd
+luaCondStart
+luaConstant                                                                   [000]  #ffa931
+luaError                                                     [048]  Red       [043]  #aa5656
+luaFor                                                                        [005]  #b99b6b
+luaFunc                                                                       [007]  #f1dbbf
+luaFunction                                                                   [007]  #f1dbbf
+luaFunctionBlock
+luaInnerComment
+luaLabel                                                                      [005]  #b99b6b
+lualine_a_command                                            [145]  #fff0d2   [146]  #232932
+lualine_a_inactive                                           [147]  #b9b9b9   [146]  #232932
+lualine_a_insert                                             [148]  #ffb935   [146]  #232932
+lualine_a_normal                                             [147]  #b9b9b9   [146]  #232932
+lualine_a_replace                                            [148]  #ffb935   [146]  #232932
+lualine_a_terminal                                           [145]  #fff0d2   [146]  #232932
+lualine_a_visual                                             [149]  #738f73   [146]  #232932
+lualine_b_command                                            [146]  #232932   [145]  #fff0d2
+lualine_b_inactive                                           [146]  #232932   [147]  #b9b9b9
+lualine_b_insert                                             [146]  #232932   [148]  #ffb935
+lualine_b_normal                                             [146]  #232932   [147]  #b9b9b9
+lualine_b_replace                                            [146]  #232932   [148]  #ffb935
+lualine_b_terminal                                           [146]  #232932   [145]  #fff0d2
+lualine_b_visual                                             [146]  #232932   [149]  #738f73
+lualine_c_command                                            [028]  #000000   [150]  #69a5c6
+lualine_c_inactive                                           [028]  #000000   [150]  #69a5c6
+lualine_c_insert                                             [028]  #000000   [150]  #69a5c6
+lualine_c_normal                                             [028]  #000000   [150]  #69a5c6
+lualine_c_replace                                            [028]  #000000   [150]  #69a5c6
+lualine_c_terminal                                           [028]  #000000   [150]  #69a5c6
+lualine_c_visual                                             [028]  #000000   [150]  #69a5c6
+lualine_transitional_lualine_a_command_to_lualine_b_command  [146]  #232932   [145]  #fff0d2
+lualine_transitional_lualine_a_normal_to_lualine_b_normal    [146]  #232932   [147]  #b9b9b9
+lualine_transitional_lualine_b_command_to_lualine_c_command  [028]  #000000   [146]  #232932
+lualine_transitional_lualine_b_normal_to_lualine_c_normal    [028]  #000000   [146]  #232932
+lualine_x_diagnostics_error_command                          [028]  #000000   [024]  #ff0000
+lualine_x_diagnostics_error_inactive                         [028]  #000000   [024]  #ff0000
+lualine_x_diagnostics_error_insert                           [028]  #000000   [024]  #ff0000
+lualine_x_diagnostics_error_normal                           [028]  #000000   [024]  #ff0000
+lualine_x_diagnostics_error_replace                          [028]  #000000   [024]  #ff0000
+lualine_x_diagnostics_error_terminal                         [028]  #000000   [024]  #ff0000
+lualine_x_diagnostics_error_visual                           [028]  #000000   [024]  #ff0000
+lualine_x_diagnostics_hint_command                           [028]  #000000   [027]  #d3d3d3
+lualine_x_diagnostics_hint_inactive                          [028]  #000000   [027]  #d3d3d3
+lualine_x_diagnostics_hint_insert                            [028]  #000000   [027]  #d3d3d3
+lualine_x_diagnostics_hint_normal                            [028]  #000000   [027]  #d3d3d3
+lualine_x_diagnostics_hint_replace                           [028]  #000000   [027]  #d3d3d3
+lualine_x_diagnostics_hint_terminal                          [028]  #000000   [027]  #d3d3d3
+lualine_x_diagnostics_hint_visual                            [028]  #000000   [027]  #d3d3d3
+lualine_x_diagnostics_info_command                           [028]  #000000   [030]  #add8e6
+lualine_x_diagnostics_info_inactive                          [028]  #000000   [030]  #add8e6
+lualine_x_diagnostics_info_insert                            [028]  #000000   [030]  #add8e6
+lualine_x_diagnostics_info_normal                            [028]  #000000   [030]  #add8e6
+lualine_x_diagnostics_info_replace                           [028]  #000000   [030]  #add8e6
+lualine_x_diagnostics_info_terminal                          [028]  #000000   [030]  #add8e6
+lualine_x_diagnostics_info_visual                            [028]  #000000   [030]  #add8e6
+lualine_x_diagnostics_warn_command                           [028]  #000000   [032]  #ffa500
+lualine_x_diagnostics_warn_inactive                          [028]  #000000   [032]  #ffa500
+lualine_x_diagnostics_warn_insert                            [028]  #000000   [032]  #ffa500
+lualine_x_diagnostics_warn_normal                            [028]  #000000   [032]  #ffa500
+lualine_x_diagnostics_warn_replace                           [028]  #000000   [032]  #ffa500
+lualine_x_diagnostics_warn_terminal                          [028]  #000000   [032]  #ffa500
+lualine_x_diagnostics_warn_visual                            [028]  #000000   [032]  #ffa500
+lualine_x_filetype_DevIconVim_command                        [028]  #000000   [019]  #019833
+lualine_x_filetype_DevIconVim_inactive                       [028]  #000000   [019]  #019833
+lualine_x_filetype_DevIconVim_insert                         [028]  #000000   [019]  #019833
+lualine_x_filetype_DevIconVim_normal                         [028]  #000000   [019]  #019833
+lualine_x_filetype_DevIconVim_replace                        [028]  #000000   [019]  #019833
+lualine_x_filetype_DevIconVim_terminal                       [028]  #000000   [019]  #019833
+lualine_x_filetype_DevIconVim_visual                         [028]  #000000   [019]  #019833
+luaMetaMethod                                                                 [007]  #f1dbbf
+luaNumber                                                                     [000]  #ffa931
+luaOperator                                                                   [005]  #b99b6b
+luaParen
+luaParenError                                                [048]  Red       [043]  #aa5656
+luaRepeat                                                                     [005]  #b99b6b
+luaRepeatBlock
+luaSpecial                                                                    [002]  #698269
+luaStatement                                                                  [005]  #b99b6b
+luaString                                                                     [000]  #ffa931
+luaString2                                                                    [000]  #ffa931
+luaStringDelimiter                                                            [000]  #ffa931
+luaSymbolOperator                                                             [005]  #b99b6b
+luaTable                                                                      [003]  #7db9b6
+luaTableBlock
+luaTodo                                                      [009]  Yellow    [010]  #eee9da
+luaWhile
+Macro                                                                         [006]  #ff80ff
+MatchParen                                                   [151]  DarkCyan
+Method
+ModeMsg
+MoreMsg                                                                       [152]  SeaGreen
+MsgArea
+MsgSeparator                                                                  [005]  #b99b6b
+None
+NonText                                                                       [140]  Blue
+Normal                                                       [012]  #20262e   [016]  #6096b4
+NormalFloat                                                  [012]  #20262e   [016]  #6096b4
+NormalNC
+NotifyBackground                                             [012]  #20262e   [016]  #6096b4
+NotifyDEBUGBody                                              [012]  #20262e   [016]  #6096b4
+NotifyDEBUGBorder
+NotifyDEBUGIcon
+NotifyDEBUGTitle
+NotifyERRORBody                                              [012]  #20262e   [016]  #6096b4
+NotifyERRORBorder
+NotifyERRORIcon
+NotifyERRORTitle
+NotifyINFOBody                                               [012]  #20262e   [016]  #6096b4
+NotifyINFOBorder
+NotifyINFOIcon
+NotifyINFOTitle
+NotifyLogTime                                                                 [004]  #b9ac92
+NotifyLogTitle                                                                [002]  #698269
+NotifyTRACEBody                                              [012]  #20262e   [016]  #6096b4
+NotifyTRACEBorder
+NotifyTRACEIcon
+NotifyTRACETitle
+NotifyWARNBody                                               [012]  #20262e   [016]  #6096b4
+NotifyWARNBorder
+NotifyWARNIcon
+NotifyWARNTitle
+NullLsInfoBorder                                             [012]  #20262e   [016]  #6096b4
+NullLsInfoHeader                                                              [005]  #b99b6b
+NullLsInfoSources                                                             [008]  Magenta
+NullLsInfoTitle                                                               [003]  #7db9b6
+Number                                                                        [000]  #ffa931
+NvimAnd                                                                       [005]  #b99b6b
+NvimArrow                                                                     [002]  #698269
+NvimAssignment                                                                [005]  #b99b6b
+NvimAssignmentWithAddition                                                    [005]  #b99b6b
+NvimAssignmentWithConcatenation                                               [005]  #b99b6b
+NvimAssignmentWithSubtraction                                                 [005]  #b99b6b
+NvimAugmentedAssignment                                                       [005]  #b99b6b
+nvimAutoEvent                                                                 [003]  #7db9b6
+NvimBinaryMinus                                                               [005]  #b99b6b
+NvimBinaryOperator                                                            [005]  #b99b6b
+NvimBinaryPlus                                                                [005]  #b99b6b
+NvimCallingParenthesis                                                        [002]  #698269
+NvimColon                                                                     [002]  #698269
+NvimComma                                                                     [002]  #698269
+NvimComparison                                                                [005]  #b99b6b
+NvimComparisonModifier                                                        [005]  #b99b6b
+NvimConcat                                                                    [005]  #b99b6b
+NvimConcatOrSubscript                                                         [005]  #b99b6b
+NvimContainer                                                                 [002]  #698269
+NvimCurly                                                                     [002]  #698269
+NvimDict                                                                      [002]  #698269
+NvimDivision                                                                  [005]  #b99b6b
+NvimDoubleQuote                                                               [000]  #ffa931
+NvimDoubleQuotedBody                                                          [000]  #ffa931
+NvimDoubleQuotedEscape                                                        [002]  #698269
+NvimDoubleQuotedUnknownEscape                                [048]  Red       [043]  #aa5656
+NvimEnvironmentName                                                           [007]  #f1dbbf
+NvimEnvironmentSigil                                                          [003]  #7db9b6
+NvimFigureBrace                                              [048]  Red       [048]  Red
+NvimFloat                                                                     [000]  #ffa931
+nvimHLGroup                                                                   [003]  #7db9b6
+NvimIdentifier                                                                [007]  #f1dbbf
+NvimIdentifierKey                                                             [007]  #f1dbbf
+NvimIdentifierName                                                            [007]  #f1dbbf
+NvimIdentifierScope                                                           [007]  #f1dbbf
+NvimIdentifierScopeDelimiter                                                  [007]  #f1dbbf
+NvimInternalError                                            [048]  Red       [048]  Red
+NvimInvalid                                                  [048]  Red       [043]  #aa5656
+NvimInvalidAnd                                               [048]  Red       [043]  #aa5656
+NvimInvalidArrow                                             [048]  Red       [043]  #aa5656
+NvimInvalidAssignment                                        [048]  Red       [043]  #aa5656
+NvimInvalidAssignmentWithAddition                            [048]  Red       [043]  #aa5656
+NvimInvalidAssignmentWithConcatenation                       [048]  Red       [043]  #aa5656
+NvimInvalidAssignmentWithSubtraction                         [048]  Red       [043]  #aa5656
+NvimInvalidAugmentedAssignment                               [048]  Red       [043]  #aa5656
+NvimInvalidBinaryMinus                                       [048]  Red       [043]  #aa5656
+NvimInvalidBinaryOperator                                    [048]  Red       [043]  #aa5656
+NvimInvalidBinaryPlus                                        [048]  Red       [043]  #aa5656
+NvimInvalidCallingParenthesis                                [048]  Red       [043]  #aa5656
+NvimInvalidColon                                             [048]  Red       [043]  #aa5656
+NvimInvalidComma                                             [048]  Red       [043]  #aa5656
+NvimInvalidComparison                                        [048]  Red       [043]  #aa5656
+NvimInvalidComparisonModifier                                [048]  Red       [043]  #aa5656
+NvimInvalidConcat                                            [048]  Red       [043]  #aa5656
+NvimInvalidConcatOrSubscript                                 [048]  Red       [043]  #aa5656
+NvimInvalidContainer                                         [048]  Red       [043]  #aa5656
+NvimInvalidCurly                                             [048]  Red       [043]  #aa5656
+NvimInvalidDelimiter                                         [048]  Red       [043]  #aa5656
+NvimInvalidDict                                              [048]  Red       [043]  #aa5656
+NvimInvalidDivision                                          [048]  Red       [043]  #aa5656
+NvimInvalidDoubleQuote                                       [048]  Red       [043]  #aa5656
+NvimInvalidDoubleQuotedBody                                                   [000]  #ffa931
+NvimInvalidDoubleQuotedEscape                                                 [002]  #698269
+NvimInvalidDoubleQuotedUnknownEscape                         [048]  Red       [043]  #aa5656
+NvimInvalidEnvironmentName                                   [048]  Red       [043]  #aa5656
+NvimInvalidEnvironmentSigil                                  [048]  Red       [043]  #aa5656
+NvimInvalidFigureBrace                                       [048]  Red       [043]  #aa5656
+NvimInvalidFloat                                             [048]  Red       [043]  #aa5656
+NvimInvalidIdentifier                                        [048]  Red       [043]  #aa5656
+NvimInvalidIdentifierKey                                     [048]  Red       [043]  #aa5656
+NvimInvalidIdentifierName                                    [048]  Red       [043]  #aa5656
+NvimInvalidIdentifierScope                                   [048]  Red       [043]  #aa5656
+NvimInvalidIdentifierScopeDelimiter                          [048]  Red       [043]  #aa5656
+NvimInvalidLambda                                            [048]  Red       [043]  #aa5656
+NvimInvalidList                                              [048]  Red       [043]  #aa5656
+NvimInvalidMod                                               [048]  Red       [043]  #aa5656
+NvimInvalidMultiplication                                    [048]  Red       [043]  #aa5656
+NvimInvalidNestingParenthesis                                [048]  Red       [043]  #aa5656
+NvimInvalidNot                                               [048]  Red       [043]  #aa5656
+NvimInvalidNumber                                            [048]  Red       [043]  #aa5656
+NvimInvalidNumberPrefix                                      [048]  Red       [043]  #aa5656
+NvimInvalidOperator                                          [048]  Red       [043]  #aa5656
+NvimInvalidOptionName                                        [048]  Red       [043]  #aa5656
+NvimInvalidOptionScope                                       [048]  Red       [043]  #aa5656
+NvimInvalidOptionScopeDelimiter                              [048]  Red       [043]  #aa5656
+NvimInvalidOptionSigil                                       [048]  Red       [043]  #aa5656
+NvimInvalidOr                                                [048]  Red       [043]  #aa5656
+NvimInvalidParenthesis                                       [048]  Red       [043]  #aa5656
+NvimInvalidPlainAssignment                                   [048]  Red       [043]  #aa5656
+NvimInvalidRegister                                          [048]  Red       [043]  #aa5656
+NvimInvalidSingleQuote                                       [048]  Red       [043]  #aa5656
+NvimInvalidSingleQuotedBody                                                   [000]  #ffa931
+NvimInvalidSingleQuotedQuote                                                  [002]  #698269
+NvimInvalidSingleQuotedUnknownEscape                         [048]  Red       [048]  Red
+NvimInvalidSpacing                                           [048]  Red       [038]  White
+NvimInvalidString                                            [048]  Red       [043]  #aa5656
+NvimInvalidStringBody                                                         [000]  #ffa931
+NvimInvalidStringQuote                                       [048]  Red       [043]  #aa5656
+NvimInvalidStringSpecial                                                      [002]  #698269
+NvimInvalidSubscript                                         [048]  Red       [043]  #aa5656
+NvimInvalidSubscriptBracket                                  [048]  Red       [043]  #aa5656
+NvimInvalidSubscriptColon                                    [048]  Red       [043]  #aa5656
+NvimInvalidTernary                                           [048]  Red       [043]  #aa5656
+NvimInvalidTernaryColon                                      [048]  Red       [043]  #aa5656
+NvimInvalidUnaryMinus                                        [048]  Red       [043]  #aa5656
+NvimInvalidUnaryOperator                                     [048]  Red       [043]  #aa5656
+NvimInvalidUnaryPlus                                         [048]  Red       [043]  #aa5656
+NvimInvalidValue                                             [048]  Red       [043]  #aa5656
+NvimLambda                                                                    [002]  #698269
+NvimList                                                                      [002]  #698269
+nvimMap                                                                       [005]  #b99b6b
+NvimMod                                                                       [005]  #b99b6b
+NvimMultiplication                                                            [005]  #b99b6b
+NvimNestingParenthesis                                                        [002]  #698269
+NvimNot                                                                       [005]  #b99b6b
+NvimNumber                                                                    [000]  #ffa931
+NvimNumberPrefix                                                              [003]  #7db9b6
+NvimOperator                                                                  [005]  #b99b6b
+NvimOptionName                                                                [007]  #f1dbbf
+NvimOptionScope                                                               [007]  #f1dbbf
+NvimOptionScopeDelimiter                                                      [007]  #f1dbbf
+NvimOptionSigil                                                               [003]  #7db9b6
+NvimOr                                                                        [005]  #b99b6b
+NvimParenthesis                                                               [002]  #698269
+NvimPlainAssignment                                                           [005]  #b99b6b
+NvimRegister                                                                  [002]  #698269
+NvimSingleQuote                                                               [000]  #ffa931
+NvimSingleQuotedBody                                                          [000]  #ffa931
+NvimSingleQuotedQuote                                                         [002]  #698269
+NvimSingleQuotedUnknownEscape                                [048]  Red       [048]  Red
+NvimSpacing                                                  [012]  #20262e   [016]  #6096b4
+NvimString                                                                    [000]  #ffa931
+NvimStringBody                                                                [000]  #ffa931
+NvimStringQuote                                                               [000]  #ffa931
+NvimStringSpecial                                                             [002]  #698269
+NvimSubscript                                                                 [002]  #698269
+NvimSubscriptBracket                                                          [002]  #698269
+NvimSubscriptColon                                                            [002]  #698269
+NvimTernary                                                                   [005]  #b99b6b
+NvimTernaryColon                                                              [005]  #b99b6b
+NvimUnaryMinus                                                                [005]  #b99b6b
+NvimUnaryOperator                                                             [005]  #b99b6b
+NvimUnaryPlus                                                                 [005]  #b99b6b
+nvimUnmap                                                                     [005]  #b99b6b
+Operator                                                                      [005]  #b99b6b
+OutlineIndent                                                                 [139]  #b33076
+OutlinePreviewBorder                                         [012]  #20262e
+OutlinePreviewNormal                                         [012]  #20262e   [013]  #61afef
+Pmenu                                                        [034]  #352e2e
+PmenuSbar                                                    [058]  Grey
+PmenuSel                                                     [046]  DarkGrey
+PmenuThumb                                                   [038]  White
+PreCondit                                                                     [006]  #ff80ff
+PreProc                                                                       [006]  #ff80ff
+Question                                                                      [153]  Green
+QuickFixLine                                                 [009]  Yellow    [040]  Black
+RedrawDebugClear                                             [009]  Yellow
+RedrawDebugComposed                                          [153]  Green
+RedrawDebugNormal
+RedrawDebugRecompose                                         [048]  Red
+RenameBorder                                                 [012]  #20262e   [013]  #61afef
+RenameMatch                                                  [009]  Yellow    [040]  Black
+RenameNormal                                                 [012]  #20262e   [036]  #ff8700
+Repeat                                                                        [005]  #b99b6b
+SagaBeacon                                                   [139]  #b33076
+SagaBorder                                                   [012]  #20262e   [013]  #61afef
+SagaCollapse                                                                  [033]  #e95678
+SagaExpand                                                                    [033]  #e95678
+SagaNormal                                                   [012]  #20262e
+SagaShadow                                                   [154]  #1c1c19
+Search                                                       [009]  Yellow    [040]  Black
+SignColumn                                                   [058]  Grey      [059]  Cyan
+Special                                                                       [002]  #698269
+SpecialChar                                                                   [002]  #698269
+SpecialComment                                                                [002]  #698269
+SpecialKey                                                                    [059]  Cyan
+SpellBad
+SpellCap
+SpellLocal
+SpellRare
+StartifyPath                                                                  [004]  #b9ac92
+Statement                                                                     [005]  #b99b6b
+StatusLine                                                                    [005]  #b99b6b
+StatusLineNC
+StorageClass                                                                  [003]  #7db9b6
+String                                                                        [000]  #ffa931
+Struct
+Structure                                                                     [003]  #7db9b6
+Substitute                                                   [009]  Yellow    [040]  Black
+TabLine                                                      [005]  #b99b6b
+TabLineFill
+TabLineSel
+Tag                                                                           [002]  #698269
+TelescopeBorder                                              [012]  #20262e   [016]  #6096b4
+TelescopeMatching                                                             [002]  #698269
+TelescopeMultiIcon                                                            [007]  #f1dbbf
+TelescopeMultiSelection                                                       [003]  #7db9b6
+TelescopeNormal                                              [012]  #20262e   [016]  #6096b4
+TelescopePreviewBlock                                                         [000]  #ffa931
+TelescopePreviewBorder                                       [012]  #20262e   [016]  #6096b4
+TelescopePreviewCharDev                                                       [000]  #ffa931
+TelescopePreviewDate                                                          [045]  #fcba03
+TelescopePreviewDirectory                                                     [045]  #fcba03
+TelescopePreviewExecute                                                       [000]  #ffa931
+TelescopePreviewGroup                                                         [000]  #ffa931
+TelescopePreviewHyphen                                                        [140]  Blue
+TelescopePreviewLine                                         [042]  #913175   [044]  #e9e8e8
+TelescopePreviewLink                                                          [002]  #698269
+TelescopePreviewMatch                                        [009]  Yellow    [040]  Black
+TelescopePreviewMessage                                      [012]  #20262e   [016]  #6096b4
+TelescopePreviewMessageFillchar                              [012]  #20262e   [016]  #6096b4
+TelescopePreviewNormal                                       [012]  #20262e   [016]  #6096b4
+TelescopePreviewPipe                                                          [000]  #ffa931
+TelescopePreviewRead                                                          [000]  #ffa931
+TelescopePreviewSize                                                          [000]  #ffa931
+TelescopePreviewSocket                                                        [005]  #b99b6b
+TelescopePreviewSticky                                                        [005]  #b99b6b
+TelescopePreviewTitle                                        [012]  #20262e   [016]  #6096b4
+TelescopePreviewUser                                                          [000]  #ffa931
+TelescopePreviewWrite                                                         [005]  #b99b6b
+TelescopePromptBorder                                        [012]  #20262e   [016]  #6096b4
+TelescopePromptCounter                                                        [140]  Blue
+TelescopePromptNormal                                        [012]  #20262e   [016]  #6096b4
+TelescopePromptPrefix                                                         [007]  #f1dbbf
+TelescopePromptTitle                                         [012]  #20262e   [016]  #6096b4
+TelescopeResultsBorder                                       [012]  #20262e   [016]  #6096b4
+TelescopeResultsClass                                                         [007]  #f1dbbf
+TelescopeResultsComment                                                       [004]  #b9ac92
+TelescopeResultsConstant                                                      [000]  #ffa931
+TelescopeResultsDiffAdd                                      [012]  #20262e   [041]  #7de9e9
+TelescopeResultsDiffChange                                   [012]  #20262e   [036]  #ff8700
+TelescopeResultsDiffDelete                                   [012]  #20262e   [043]  #aa5656
+TelescopeResultsDiffUntracked                                [012]  #20262e   [016]  #6096b4
+TelescopeResultsField                                                         [007]  #f1dbbf
+TelescopeResultsFunction                                                      [007]  #f1dbbf
+TelescopeResultsIdentifier                                                    [007]  #f1dbbf
+TelescopeResultsLineNr                                                        [005]  #b99b6b
+TelescopeResultsMethod
+TelescopeResultsNormal                                       [012]  #20262e   [016]  #6096b4
+TelescopeResultsNumber                                                        [000]  #ffa931
+TelescopeResultsOperator                                                      [005]  #b99b6b
+TelescopeResultsSpecialComment                                                [002]  #698269
+TelescopeResultsStruct
+TelescopeResultsTitle                                        [012]  #20262e   [016]  #6096b4
+TelescopeResultsVariable                                                      [002]  #698269
+TelescopeSelection                                           [042]  #913175   [044]  #e9e8e8
+TelescopeSelectionCaret                                      [042]  #913175   [044]  #e9e8e8
+TelescopeTitle                                               [012]  #20262e   [016]  #6096b4
+TermCursor
+TermCursorNC
+TerminalBorder                                               [012]  #20262e   [013]  #61afef
+TerminalNormal                                               [012]  #20262e
+Title                                                                         [008]  Magenta
+TitleIcon                                                                     [033]  #e95678
+TitleString                                                                   [136]  #f2f2bf
+Todo                                                         [009]  Yellow    [010]  #eee9da
+Type                                                                          [003]  #7db9b6
+Typedef                                                                       [003]  #7db9b6
+Underlined                                                                    [011]  #80a0ff
+VertSplit                                                    [012]  #20262e   [016]  #6096b4
+vim9Comment                                                                   [004]  #b9ac92
+vim9LineComment                                                               [004]  #b9ac92
+vimAbb                                                                        [005]  #b99b6b
+vimAddress                                                                    [000]  #ffa931
+vimAugroup
+vimAugroupError                                              [048]  Red       [043]  #aa5656
+vimAugroupKey                                                                 [005]  #b99b6b
+vimAugroupSyncA
+vimAuHighlight                                                                [005]  #b99b6b
+vimAuSyntax
+vimAutoCmd                                                                    [005]  #b99b6b
+vimAutoCmdMod                                                                 [002]  #698269
+vimAutoCmdOpt                                                                 [006]  #ff80ff
+vimAutoCmdSfxList
+vimAutoCmdSpace
+vimAutoEvent                                                                  [003]  #7db9b6
+vimAutoEventList
+vimAutoSet                                                                    [005]  #b99b6b
+vimBehave                                                                     [005]  #b99b6b
+vimBehaveError                                               [048]  Red       [043]  #aa5656
+vimBehaveModel                                                                [005]  #b99b6b
+vimBracket                                                                    [002]  #698269
+vimBufnrWarn                                                                  [048]  Red
+vimClusterName
+vimCmdSep
+vimCmplxRepeat                                                                [002]  #698269
+vimCollClass
+vimCollClassErr                                              [048]  Red       [043]  #aa5656
+vimCollection
+vimComFilter
+vimCommand                                                                    [005]  #b99b6b
+vimComment                                                                    [004]  #b9ac92
+vimCommentString                                                              [000]  #ffa931
+vimCommentTitle                                                               [006]  #ff80ff
+vimCommentTitleLeader
+vimCondHL                                                                     [005]  #b99b6b
+vimContinue                                                                   [002]  #698269
+vimCtrlChar                                                                   [002]  #698269
+vimEcho
+vimEchoHL                                                                     [005]  #b99b6b
+vimEchoHLNone                                                                 [003]  #7db9b6
+vimElseif                                                                     [005]  #b99b6b
+vimElseIfErr                                                 [048]  Red       [043]  #aa5656
+vimEmbedError                                                [012]  #20262e   [016]  #6096b4
+vimEnvvar                                                                     [006]  #ff80ff
+vimError                                                     [048]  Red       [043]  #aa5656
+vimErrSetting                                                [048]  Red       [043]  #aa5656
+vimEscape                                                                     [002]  #698269
+vimEscapeBrace
+vimExecute
+vimExtCmd
+vimFBVar                                                                      [007]  #f1dbbf
+vimFgBgAttrib                                                                 [006]  #ff80ff
+vimFiletype
+vimFilter
+vimFold                                                      [046]  DarkGrey  [059]  Cyan
+vimFTCmd                                                                      [005]  #b99b6b
+vimFTError                                                   [048]  Red       [043]  #aa5656
+vimFTOption                                                                   [003]  #7db9b6
+vimFunc                                                      [048]  Red       [043]  #aa5656
+vimFuncBlank
+vimFuncBody
+vimFuncEcho                                                                   [005]  #b99b6b
+vimFuncKey                                                                    [005]  #b99b6b
+vimFuncName                                                                   [007]  #f1dbbf
+vimFuncSID                                                                    [002]  #698269
+vimFunction
+vimFunctionError                                             [048]  Red       [043]  #aa5656
+vimFuncVar                                                                    [007]  #f1dbbf
+vimGlobal
+vimGroup                                                                      [003]  #7db9b6
+vimGroupAdd                                                                   [002]  #698269
+vimGroupList
+vimGroupName                                                                  [003]  #7db9b6
+vimGroupRem                                                                   [002]  #698269
+vimGroupSpecial                                                               [002]  #698269
+vimHiAttrib                                                                   [006]  #ff80ff
+vimHiAttribList                                              [048]  Red       [043]  #aa5656
+vimHiBang
+vimHiBlend                                                                    [003]  #7db9b6
+vimHiClear                                                                    [005]  #b99b6b
+vimHiCTerm                                                                    [003]  #7db9b6
+vimHiCtermColor
+vimHiCtermError                                              [048]  Red       [043]  #aa5656
+vimHiCtermFgBg                                                                [003]  #7db9b6
+vimHiCtermul                                                                  [003]  #7db9b6
+vimHiFontname
+vimHighlight                                                                  [005]  #b99b6b
+vimHiGroup                                                                    [003]  #7db9b6
+vimHiGui                                                                      [003]  #7db9b6
+vimHiGuiFgBg                                                                  [003]  #7db9b6
+vimHiGuiFont                                                                  [003]  #7db9b6
+vimHiGuiFontname
+vimHiGuiRgb                                                                   [000]  #ffa931
+vimHiKeyError                                                [048]  Red       [043]  #aa5656
+vimHiKeyList
+vimHiLink
+vimHiNmbr                                                                     [000]  #ffa931
+vimHiStartStop                                                                [003]  #7db9b6
+vimHiTerm                                                                     [003]  #7db9b6
+vimHiTermcap
+vimHLGroup                                                                    [003]  #7db9b6
+vimHLMod                                                                      [006]  #ff80ff
+vimInsert                                                                     [000]  #ffa931
+vimIsCommand
+vimIskList
+vimIskSep                                                                     [002]  #698269
+vimKeyCode                                                                    [007]  #f1dbbf
+vimKeyCodeError                                              [048]  Red       [043]  #aa5656
+vimKeyword                                                                    [005]  #b99b6b
+vimLet                                                                        [005]  #b99b6b
+vimLetHereDoc                                                                 [000]  #ffa931
+vimLetHereDocStart                                                            [002]  #698269
+vimLetHereDocStop                                                             [002]  #698269
+vimLineComment                                                                [004]  #b9ac92
+vimLuaRegion
+vimMap                                                                        [005]  #b99b6b
+vimMapBang                                                                    [005]  #b99b6b
+vimMapLhs
+vimMapMod                                                                     [002]  #698269
+vimMapModErr                                                 [048]  Red       [043]  #aa5656
+vimMapModKey                                                                  [002]  #698269
+vimMapRhs
+vimMapRhsExtend
+vimMark                                                                       [000]  #ffa931
+vimMarkNumber                                                                 [000]  #ffa931
+vimMenuBang
+vimMenuMap
+vimMenuMod                                                                    [002]  #698269
+vimMenuName                                                                   [006]  #ff80ff
+vimMenuNameMore                                                               [006]  #ff80ff
+vimMenuPriority
+vimMenuRhs
+vimMtchComment                                                                [004]  #b9ac92
+vimNorm                                                                       [005]  #b99b6b
+vimNormCmds
+vimNotation                                                                   [002]  #698269
+vimNotFunc                                                                    [005]  #b99b6b
+vimNotPatSep                                                                  [000]  #ffa931
+vimNumber                                                                     [000]  #ffa931
+vimOnlyCommand
+vimOnlyHLGroup
+vimOnlyOption
+vimOper                                                                       [005]  #b99b6b
+vimOperError                                                 [048]  Red       [043]  #aa5656
+vimOperParen
+vimoperStar                                                                   [005]  #b99b6b
+vimOption                                                                     [006]  #ff80ff
+vimParenSep                                                                   [002]  #698269
+vimPatRegion
+vimPatSep                                                                     [002]  #698269
+vimPatSepErr                                                 [048]  Red       [043]  #aa5656
+vimPatSepR                                                                    [002]  #698269
+vimPatSepZ                                                                    [002]  #698269
+vimPatSepZone                                                                 [000]  #ffa931
+vimPattern                                                                    [003]  #7db9b6
+vimPlainMark                                                                  [000]  #ffa931
+vimPlainRegister                                                              [002]  #698269
+vimRange
+vimRegion
+vimRegister                                                                   [002]  #698269
+vimScriptDelim                                                                [004]  #b9ac92
+vimSearch                                                                     [000]  #ffa931
+vimSearchDelim                                                                [005]  #b99b6b
+vimSep                                                                        [002]  #698269
+vimSet
+vimSetEqual
+vimSetMod                                                                     [006]  #ff80ff
+vimSetSep                                                                     [005]  #b99b6b
+vimSetString                                                                  [000]  #ffa931
+vimSpecFile                                                                   [007]  #f1dbbf
+vimSpecFileMod                                                                [007]  #f1dbbf
+vimSpecial                                                                    [003]  #7db9b6
+vimStatement                                                                  [005]  #b99b6b
+vimStdPlugin
+vimString                                                                     [000]  #ffa931
+vimStringCont                                                                 [000]  #ffa931
+vimStringEnd                                                                  [000]  #ffa931
+vimSubst                                                                      [005]  #b99b6b
+vimSubst1                                                                     [005]  #b99b6b
+vimSubst2
+vimSubstDelim                                                                 [002]  #698269
+vimSubstFlagErr                                              [048]  Red       [043]  #aa5656
+vimSubstFlags                                                                 [002]  #698269
+vimSubstPat
+vimSubstRange
+vimSubstRep
+vimSubstRep4
+vimSubstSubstr                                                                [002]  #698269
+vimSubstTwoBS                                                                 [000]  #ffa931
+vimSynCase                                                                    [003]  #7db9b6
+vimSynCaseError                                              [048]  Red       [043]  #aa5656
+vimSyncC                                                                      [003]  #7db9b6
+vimSyncError                                                 [048]  Red       [043]  #aa5656
+vimSyncGroup                                                                  [003]  #7db9b6
+vimSyncGroupName                                                              [003]  #7db9b6
+vimSyncKey                                                                    [003]  #7db9b6
+vimSyncLinebreak
+vimSyncLinecont
+vimSyncLines
+vimSyncMatch
+vimSyncNone                                                                   [003]  #7db9b6
+vimSynContains                                                                [002]  #698269
+vimSyncRegion
+vimSynError                                                  [048]  Red       [043]  #aa5656
+vimSynKeyContainedin                                                          [002]  #698269
+vimSynKeyOpt                                                                  [002]  #698269
+vimSynKeyRegion
+vimSynLine
+vimSynMatchRegion
+vimSynMtchCchar
+vimSynMtchGroup
+vimSynMtchGrp                                                                 [002]  #698269
+vimSynMtchOpt                                                                 [002]  #698269
+vimSynNextgroup                                                               [002]  #698269
+vimSynNotPatRange                                                             [000]  #ffa931
+vimSynOption                                                                  [002]  #698269
+vimSynPatMod
+vimSynPatRange                                                                [000]  #ffa931
+vimSynReg                                                                     [003]  #7db9b6
+vimSynRegion
+vimSynRegOpt                                                                  [002]  #698269
+vimSynRegPat                                                                  [000]  #ffa931
+vimSyntax                                                                     [005]  #b99b6b
+vimSynType                                                                    [003]  #7db9b6
+vimTermOption
+vimTodo                                                      [009]  Yellow    [010]  #eee9da
+vimType                                                                       [003]  #7db9b6
+vimUnmap                                                                      [005]  #b99b6b
+vimUserAttrb                                                                  [003]  #7db9b6
+vimUserAttrbCmplt                                                             [003]  #7db9b6
+vimUserAttrbCmpltFunc                                                         [002]  #698269
+vimUserAttrbError                                            [048]  Red       [043]  #aa5656
+vimUserAttrbKey                                                               [006]  #ff80ff
+vimUserCmd
+vimUserCmdError                                              [048]  Red       [043]  #aa5656
+vimUserCommand                                                                [005]  #b99b6b
+vimUserFunc                                                  [012]  #20262e   [016]  #6096b4
+vimUsrCmd
+vimVar                                                                        [007]  #f1dbbf
+vimWarn                                                                       [048]  Red
+Visual                                                       [042]  #913175   [044]  #e9e8e8
+VisualNC
+WarningMsg                                                                    [048]  Red
+WhichKey                                                                      [007]  #f1dbbf
+WhichKeyBorder                                               [012]  #20262e   [016]  #6096b4
+WhichKeyDesc                                                                  [007]  #f1dbbf
+WhichKeyFloat                                                [012]  #20262e   [016]  #6096b4
+WhichKeyGroup                                                                 [005]  #b99b6b
+WhichKeySeparator                                                             [004]  #b9ac92
+WhichKeyValue                                                                 [004]  #b9ac92
+Whitespace                                                                    [140]  Blue
+WildMenu                                                     [009]  Yellow    [040]  Black
+WinBar
+WinBarNC
+WinSeparator                                                 [012]  #20262e   [016]  #6096b4

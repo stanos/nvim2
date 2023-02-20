@@ -9,6 +9,7 @@ end
 
 require("telescope").load_extension("emoji")
 require('telescope').load_extension('lazygit')
+require('telescope').load_extension('packer')
 local fb_actions = require "telescope".extensions.file_browser.actions
 
 telescope.setup {
@@ -40,6 +41,20 @@ telescope.setup {
 				},
 			},
 		},
+
+		frecency = {
+      db_root = "home/my_username/path/to/db_root",
+      show_scores = false,
+      show_unindexed = true,
+      ignore_patterns = {"*.git/*", "*/tmp/*"},
+      disable_devicons = false,
+      workspaces = {
+        ["conf"]    = "/Users/stanos/.config",
+        ["data"]    = "/Users/stanos/.local/share",
+        ["project"] = "/Users/stanos/projects",
+        ["wiki"]    = "/Users/stanos/wiki"
+      }
+    },
 	},
 }
 
@@ -88,4 +103,8 @@ end)
 
 vim.keymap.set('n', 'ti', function()
 	builtin.symbols({ sources = { 'emoji', 'kaomoji', 'gitmoji' } })
+end)
+
+vim.keymap.set('n', 'tfr', function ()
+	telescope.extensions.frecency.frecency()
 end)

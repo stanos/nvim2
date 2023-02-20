@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- Theme / Colorscheme
-vim.cmd [[colorscheme tokyonight-night]]
+--vim.cmd [[colorscheme gruvbox]]
 vim.cmd [[set timeoutlen=350]]
 
 -- numbers
@@ -16,6 +16,7 @@ opt.termguicolors = true
 opt.winblend = 0
 opt.wildoptions = 'pum'
 opt.pumblend = 5
+opt.cursorline = true
 opt.background = 'dark'
 opt.completeopt = { 'menuone', 'noselect', 'noinsert' }
 opt.shiftwidth = 2

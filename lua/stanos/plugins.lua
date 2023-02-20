@@ -9,7 +9,27 @@ return require('packer').startup(function(use)
 	use 'folke/tokyonight.nvim'
 	use { "catppuccin/nvim", as = "catppuccin" }
 	use 'arkav/lualine-lsp-progress'
+	use 'windwp/nvim-ts-autotag'
+	use 'cocopon/colorswatch.vim'
+	use 'drewtempelmeyer/palenight.vim'
+	use 'nvim-telescope/telescope-packer.nvim'
 	use 'normen/vim-pio'
+	use {
+	  "nvim-telescope/telescope-frecency.nvim",
+	  config = function()
+	    require"telescope".load_extension("frecency")
+	  end,
+	  requires = {"kkharji/sqlite.lua"}
+	}
+	use {
+  	'sudormrfbin/cheatsheet.nvim',
+
+  	requires = {
+  	  {'nvim-telescope/telescope.nvim'},
+  	  {'nvim-lua/popup.nvim'},
+  	  {'nvim-lua/plenary.nvim'},
+  	}
+	}
 	use 'dracula/vim' 
 	use 'jose-elias-alvarez/null-ls.nvim'
 	use 'norcalli/nvim-colorizer.lua'
