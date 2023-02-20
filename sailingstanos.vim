@@ -4,7 +4,7 @@ hi EndOfBuffer guibg=#20262E guifg=#6096B4
 
 hi Error guifg=#AA5656
 hi Todo guifg=#EEE9DA
-hi Type guifg=#bfe6D4
+hi Type guifg=#E1EBBF
 hi Constant guifg=#e95678
 hi String guifg=#E9E8E8
 hi Statement guifg=#B99B6B
@@ -18,7 +18,9 @@ hi CursorLine guibg=#525252
 hi Character guifg=#FECB89
 hi StatusLine guibg=#B99B6B
 hi TabLine guibg=#B99B6B
-hi LineNr ctermbg=235 ctermfg=239  guifg=#B99B6B
+hi CursorLineNr ctermbg=235 ctermfg=239  guifg=#B99B6B
+hi LineNrAbove ctermbg=235 ctermfg=239  guifg=Yellow
+hi LineNrBelow ctermbg=235 ctermfg=239  guifg=#CD5888
 hi @variable guifg=#CD5888
 
 hi FloatTitle guibg=#352e2E
@@ -31,6 +33,8 @@ hi Pmenu guibg=#352e2E
 
 
 hi Directory guifg=#fcba03
+
+hi DiffText guibg=#20262E
 
 hi DiffAdd guifg=#7De9E9 guibg=#20262E
 hi DiffDelete guifg=#AA5656 guibg=#20262E
