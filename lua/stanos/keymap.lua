@@ -7,13 +7,18 @@ vim.keymap.set('n', '<leader>ps', ':PackerSync<CR>')
 vim.keymap.set('n', 'ss', ':split<Return><C-w>w')
 vim.keymap.set('n', 'sv', ':vsplit<Return><C-w>w')
 vim.keymap.set('n', '<Space>', '<C-w>w')
-vim.keymap.set('i', 'jk', '<ESC>')
-vim.keymap.set('t', 'jk', '<c-\\><c-n>')
 vim.keymap.set('n', '<ESC>', ':nohlsearch<CR>')
 
 vim.keymap.set('n', 'gll', ':LazyGit<CR>')
+vim.keymap.set('n', 'tn', ':NvimTreeToggle<CR>')
 
 vim.keymap.set('n', '<TAB>', ':BufferLineCycleNext<CR>')
 vim.keymap.set('n', '<S-TAB>', ':BufferLineCyclePrev<CR>')
 
 vim.keymap.set('n', 'te', ':tabe<CR>')
+
+vim.keymap.set('n', '<F5>', require 'dap'.continue)
+vim.keymap.set('n', '<F10>', require 'dap'.step_over)
+vim.keymap.set('n', '<F11>', require 'dap'.step_into)
+vim.keymap.set('n', '<F12>', require 'dap'.step_out)
+vim.keymap.set('n', '<leader>b', require 'dap'.toggle_breakpoint)

@@ -1,5 +1,13 @@
 vim.cmd [[packadd packer.nvim]]
 
+require('hologram').setup{
+    auto_display = true -- WIP automatic markdown image display, may be prone to breaking
+}
+
+require('adoc_pdf_live').setup()
+
+require('leap').add_default_mappings()
+
 return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
@@ -8,8 +16,42 @@ return require('packer').startup(function(use)
 	use { 'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
 	use 'folke/tokyonight.nvim'
 	use { "catppuccin/nvim", as = "catppuccin" }
+	use 'lervag/vimtex'
+	use 'mfussenegger/nvim-dap'
+	use {'stevearc/dressing.nvim'}
+	use {'stevearc/vim-arduino'}
+	use "mfussenegger/nvim-dap-python"
+	use {
+    'marioortizmanero/adoc-pdf-live.nvim',
+    config = "require('adoc_pdf_live').setup()"
+}
+	use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
+	use 'dcampos/cmp-snippy'
 	use 'arkav/lualine-lsp-progress'
+	use 'luisiacc/gruvbox-baby'
+	use({
+    "aserowy/tmux.nvim",
+    config = function() return require("tmux").setup() end
+})
+	use 'kevinhwang91/rnvimr'
+	use 'jacoborus/tender.vim'
+	use {'jdhao/better-escape.vim', event = 'InsertEnter'}
 	use 'windwp/nvim-ts-autotag'
+	use 'dcampos/nvim-snippy'
+	use "ggandor/leap.nvim"
+	use "tpope/vim-repeat"
+	use {
+  "ray-x/lsp_signature.nvim",
+	}
+	use 'nvim-telescope/telescope-media-files.nvim'
+	use {'edluffy/hologram.nvim'}
+	use {
+  'nvim-tree/nvim-tree.lua',
+	  requires = {
+	    'nvim-tree/nvim-web-devicons', -- optional, for file icons
+	  },
+	  tag = 'nightly' -- optional, updated every week. (see issue #1193)
+	}
 	use 'cocopon/colorswatch.vim'
 	use 'drewtempelmeyer/palenight.vim'
 	use 'nvim-telescope/telescope-packer.nvim'
@@ -97,4 +139,5 @@ return require('packer').startup(function(use)
 		requires = { 'kyazdani42/nvim-web-devicons', opt = true }
 	}
 end)
+
 

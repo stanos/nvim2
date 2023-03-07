@@ -10,6 +10,7 @@ end
 require("telescope").load_extension("emoji")
 require('telescope').load_extension('lazygit')
 require('telescope').load_extension('packer')
+require('telescope').load_extension('media_files')
 local fb_actions = require "telescope".extensions.file_browser.actions
 
 telescope.setup {
@@ -55,10 +56,18 @@ telescope.setup {
         ["wiki"]    = "/Users/stanos/wiki"
       }
     },
+		media_files = {
+      -- filetypes whitelist
+      -- defaults to {"png", "jpg", "mp4", "webm", "pdf"}
+      -- filetypes = {"png", "webp", "jpg", "jpeg"},
+      -- find command (defaults to `fd`)
+      find_cmd = "rg"
+    },
 	},
 }
 
 telescope.load_extension("file_browser")
+
 vim.keymap.set('n', 'tff',
 	function()
 		builtin.find_files({
@@ -82,9 +91,7 @@ vim.keymap.set("n", "tf", function()
 		layout_config = {}
 	})
 end)
-vim.keymap.set('n', 'tt', function()
-	builtin.help_tags()
-end)
+vim.keymap.set('n', 'tt', ":Telescope<CR>")
 vim.keymap.set("n", "<leader>ne", function()
 	telescope.extensions.file_browser.file_browser({
 		path = "~/.config/nvim",

@@ -1,5 +1,13 @@
 --vim.lsp.set_log_level("debug")
 
+local cfg = {
+	noice = true
+}  -- add your config here
+require("lsp_signature").setup(cfg)
+
+
+local DEFAULT_FQBN = "arduino:avr:uno"
+
 local status, nvim_lsp = pcall(require, "lspconfig")
 if (not status) then return end
 
@@ -7,8 +15,7 @@ local protocol = require('vim.lsp.protocol')
 
 local augroup_format = vim.api.nvim_create_augroup("Format", { clear = true })
 local enable_format_on_save = function(_, bufnr)
-	vim.api.nvim_clear_autocmds({ group = augroup_format, buffer = bufnr })
-	vim.api.nvim_create_autocmd("BufWritePre", {
+	vim.api.nvim_clear_autocmds({ group = augroup_format, buffer = bufnr }) vim.api.nvim_create_autocmd("BufWritePre", {
 		group = augroup_format,
 		buffer = bufnr,
 		callback = function()
@@ -35,7 +42,7 @@ local on_attach = function(client, bufnr)
 	--vim.keymap.set('n', '<space>e', vim.diagnostic.open_float, opts)
 	-- See `:help vim.lsp.*` for documentation on any of the below functions
 	--buf_set_keymap('n', 'gD', '<Cmd>lua vim.lsp.buf.declaration()<CR>', opts)
-	--vim.keymap.set('n', '<space>rn', vim.lsp.buf.rename, bufopts)
+	--vim.keymap.set('n', '<leader>r', vim.lsp.buf.rename, bufopts)
 	--buf_set_keymap('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>', opts)
 	buf_set_keymap('n', 'gii', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)
 	client.server_capabilities.semanticTokensProvider = nil
@@ -76,6 +83,17 @@ local capabilities = require('cmp_nvim_lsp').default_capabilities()
 nvim_lsp.flow.setup {
 	on_attach = on_attach,
 	capabilities = capabilities,
+}
+
+nvim_lsp.arduino_language_server.setup {
+	on_attach = on_attach,
+	capabilities = capabilities,
+	cmd = {
+		"arduino-language-server",
+		"-cli-config", "/Users/stanos/Library/Arduino15/arduino-cli.yaml",
+		"-fqbn",
+		DEFAULT_FQBN
+	}
 }
 
 nvim_lsp.vimls.setup {
@@ -126,7 +144,8 @@ nvim_lsp.clangd.setup {
 nvim_lsp.pyright.setup {
 	on_attach = on_attach,
 	capabilities = capabilities,
-	root_dir = function() return vim.loop.cwd() end
+	root_dir = function() return vim.loop.cwd() end,
+	extra_paths = {'~/Dev/pythonLibs'}
 
 }
 

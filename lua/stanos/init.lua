@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- Theme / Colorscheme
-vim.cmd [[colorscheme gruvbox]]
+vim.cmd [[colorscheme catppuccin]]
 vim.cmd [[set timeoutlen=350]]
 
 -- numbers
@@ -14,6 +14,7 @@ opt.ignorecase = true
 opt.smartcase = true
 opt.termguicolors = true
 opt.winblend = 0
+opt.wrap = false
 opt.wildoptions = 'pum'
 opt.pumblend = 5
 opt.cursorline = true

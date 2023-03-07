@@ -1,7 +1,7 @@
 local my_flavour = 'frappe'
 vim.g.catppuccin_flavour = my_flavour -- latte, frappe, macchiato, mocha
 
-local my_colors_palette = require('catppuccin.palettes').get_palette(my_flavour)
+--local my_colors_palette = require('catppuccin.palettes').get_palette(my_flavour)
 --require('catppuccin').setup({
 --	transparent_background = true,
 --	integrations = {
