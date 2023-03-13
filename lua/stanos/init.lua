@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- Theme / Colorscheme
-vim.cmd [[colorscheme neosolarized]]
+vim.cmd [[colorscheme humanoid]]
 vim.cmd [[set timeoutlen=350]]
 
 -- numbers
@@ -23,7 +23,6 @@ opt.completeopt = { 'menuone', 'noselect', 'noinsert' }
 opt.shiftwidth = 2
 opt.undofile = true
 opt.tabstop = 2
-opt.spell = true
 vim.notify = require("notify")
 require("notify").setup({
 	background_colour = "#000000",

@@ -12,6 +12,8 @@ return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 	use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+	use 'nvim-treesitter/playground'
+	use 'humanoid-colors/vim-humanoid-colorscheme'
 	-- using packer.nvim
 	use { 'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
 	use 'folke/tokyonight.nvim'
