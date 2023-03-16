@@ -112,6 +112,11 @@ _G.packer_plugins = {
     path = "/home/stanos/.local/share/nvim/site/pack/packer/start/cheatsheet.nvim",
     url = "https://github.com/sudormrfbin/cheatsheet.nvim"
   },
+  ["cmp-buffer"] = {
+    loaded = true,
+    path = "/home/stanos/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    url = "https://github.com/hrsh7th/cmp-buffer"
+  },
   ["cmp-git"] = {
     loaded = true,
     path = "/home/stanos/.local/share/nvim/site/pack/packer/start/cmp-git",
@@ -122,10 +127,20 @@ _G.packer_plugins = {
     path = "/home/stanos/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["cmp-path"] = {
+    loaded = true,
+    path = "/home/stanos/.local/share/nvim/site/pack/packer/start/cmp-path",
+    url = "https://github.com/hrsh7th/cmp-path"
+  },
   ["cmp-snippy"] = {
     loaded = true,
     path = "/home/stanos/.local/share/nvim/site/pack/packer/start/cmp-snippy",
     url = "https://github.com/dcampos/cmp-snippy"
+  },
+  ["cmp-tabnine"] = {
+    loaded = true,
+    path = "/home/stanos/.local/share/nvim/site/pack/packer/start/cmp-tabnine",
+    url = "https://github.com/tzachar/cmp-tabnine"
   },
   cmp_luasnip = {
     loaded = true,
@@ -143,10 +158,9 @@ _G.packer_plugins = {
     url = "https://github.com/cocopon/colorswatch.vim"
   },
   ["crates.nvim"] = {
-    config = { "\27LJ\2\n4\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\vcrates\frequire\0" },
     loaded = true,
     path = "/home/stanos/.local/share/nvim/site/pack/packer/start/crates.nvim",
-    url = "https://github.com/saecki/crates.nvim"
+    url = "https://github.com/Saecki/crates.nvim"
   },
   ["dressing.nvim"] = {
     loaded = true,
@@ -460,14 +474,18 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: nvim-autopairs
-time([[Config for nvim-autopairs]], true)
-try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
-time([[Config for nvim-autopairs]], false)
 -- Config for: which-key.nvim
 time([[Config for which-key.nvim]], true)
 try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14which-key\frequire\0", "config", "which-key.nvim")
 time([[Config for which-key.nvim]], false)
+-- Config for: nvim-autopairs
+time([[Config for nvim-autopairs]], true)
+try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
+time([[Config for nvim-autopairs]], false)
+-- Config for: telescope-frecency.nvim
+time([[Config for telescope-frecency.nvim]], true)
+try_loadstring("\27LJ\2\nM\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0'\2\3\0B\0\2\1K\0\1\0\rfrecency\19load_extension\14telescope\frequire\0", "config", "telescope-frecency.nvim")
+time([[Config for telescope-frecency.nvim]], false)
 -- Config for: adoc-pdf-live.nvim
 time([[Config for adoc-pdf-live.nvim]], true)
 require('adoc_pdf_live').setup()
@@ -476,14 +494,6 @@ time([[Config for adoc-pdf-live.nvim]], false)
 time([[Config for tmux.nvim]], true)
 try_loadstring("\27LJ\2\n.\0\0\3\0\3\0\0056\0\0\0'\2\1\0B\0\2\0029\0\2\0D\0\1\0\nsetup\ttmux\frequire\0", "config", "tmux.nvim")
 time([[Config for tmux.nvim]], false)
--- Config for: crates.nvim
-time([[Config for crates.nvim]], true)
-try_loadstring("\27LJ\2\n4\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\vcrates\frequire\0", "config", "crates.nvim")
-time([[Config for crates.nvim]], false)
--- Config for: telescope-frecency.nvim
-time([[Config for telescope-frecency.nvim]], true)
-try_loadstring("\27LJ\2\nM\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0'\2\3\0B\0\2\1K\0\1\0\rfrecency\19load_extension\14telescope\frequire\0", "config", "telescope-frecency.nvim")
-time([[Config for telescope-frecency.nvim]], false)
 vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]
   -- Event lazy-loads

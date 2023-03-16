@@ -13,12 +13,17 @@ return require('packer').startup(function(use)
 	use 'wbthomason/packer.nvim'
 	use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
 	use 'nvim-treesitter/playground'
+	use {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'}
 	use 'humanoid-colors/vim-humanoid-colorscheme'
 	-- using packer.nvim
 	use { 'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
 	use 'folke/tokyonight.nvim'
 	use { "catppuccin/nvim", as = "catppuccin" }
 	use 'lervag/vimtex'
+	use 'hrsh7th/cmp-path'
+	use 'hrsh7th/cmp-buffer'
+	use 'petertriho/cmp-git'
+	use 'Saecki/crates.nvim'
 	use 'mfussenegger/nvim-dap'
 	use {'stevearc/dressing.nvim'}
 	use {'stevearc/vim-arduino'}
