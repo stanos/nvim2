@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- Theme / Colorscheme
-vim.cmd [[colorscheme humanoid]]
+vim.cmd [[colorscheme tokyonight-storm]]
 vim.cmd [[set timeoutlen=350]]
 
 -- numbers

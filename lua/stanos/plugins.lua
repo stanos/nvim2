@@ -18,12 +18,31 @@ return require('packer').startup(function(use)
 	-- using packer.nvim
 	use { 'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
 	use 'folke/tokyonight.nvim'
+	use 'mbbill/undotree'
 	use { "catppuccin/nvim", as = "catppuccin" }
+	use {
+    "nvim-neorg/neorg",
+    config = function()
+        require('neorg').setup {
+            load = {
+                ["core.defaults"] = {}, -- Loads default behaviour
+                ["core.norg.concealer"] = {}, -- Adds pretty icons to your documents
+                ["core.norg.dirman"] = { -- Manages Neorg workspaces
+                    config = {
+                        workspaces = {
+                            notes = "~/notes",
+                        },
+                    },
+                },
+            },
+        }
+    end,
+    run = ":Neorg sync-parsers",
+    requires = "nvim-lua/plenary.nvim",
+}
 	use 'lervag/vimtex'
 	use 'hrsh7th/cmp-path'
 	use 'hrsh7th/cmp-buffer'
-	use 'petertriho/cmp-git'
-	use 'Saecki/crates.nvim'
 	use 'mfussenegger/nvim-dap'
 	use {'stevearc/dressing.nvim'}
 	use {'stevearc/vim-arduino'}

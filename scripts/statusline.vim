@@ -31,8 +31,8 @@ endfunction
 " set colors for statusline based on mode
 function! DetectMode(mode)
   if empty($DISPLAY)
-    let left=""
-    let right=""
+    let left=""
+    let right=""
   else
     let left=""
     let right=""
