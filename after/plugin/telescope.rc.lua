@@ -92,6 +92,7 @@ vim.keymap.set("n", "tf", function()
 	})
 end)
 vim.keymap.set('n', 'tt', ":Telescope<CR>")
+
 vim.keymap.set("n", "<leader>ne", function()
 	telescope.extensions.file_browser.file_browser({
 		path = "~/.config/nvim",
@@ -102,10 +103,6 @@ vim.keymap.set("n", "<leader>ne", function()
 		initial_mode = "normal",
 		layout_config = {}
 	})
-end)
-
-vim.keymap.set('n', 'ti', function()
-	builtin.symbols({ sources = { 'emoji', 'kaomoji', 'gitmoji' } })
 end)
 
 vim.keymap.set('n', 'ti', function()

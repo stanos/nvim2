@@ -18,6 +18,23 @@ return require('packer').startup(function(use)
 	-- using packer.nvim
 	use { 'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
 	use 'folke/tokyonight.nvim'
+	-- Lua
+	use {
+	    'KadoBOT/nvim-spotify', 
+	    requires = 'nvim-telescope/telescope.nvim',
+	    config = function()
+	        local spotify = require'nvim-spotify'
+	
+	        spotify.setup {
+	            -- default opts
+	            status = {
+	                update_interval = 10000, -- the interval (ms) to check for what's currently playing
+	                format = '%s %t by %a' -- spotify-tui --format argument
+	            }
+	        }
+	    end,
+	    run = 'make'
+	}
 	use 'mbbill/undotree'
 	use { "catppuccin/nvim", as = "catppuccin" }
 	use {

@@ -17,6 +17,7 @@ vim.keymap.set('n', '<TAB>', ':BufferLineCycleNext<CR>')
 vim.keymap.set('n', '<S-TAB>', ':BufferLineCyclePrev<CR>')
 
 vim.keymap.set('n', 'te', ':tabe<CR>')
+vim.keymap.set('n', 'tq', ':tabclose<CR>')
 
 vim.keymap.set('n', '<F5>', require 'dap'.continue)
 vim.keymap.set('n', '<F10>', require 'dap'.step_over)

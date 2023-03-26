@@ -9,6 +9,8 @@ opt.relativenumber = true
 opt.number = true
 
 -- OPT = options
+opt.spell = true
+opt.spelllang = 'en_us'
 opt.clipboard:append { 'unnamedplus' }
 opt.ignorecase = true
 opt.smartcase = true
@@ -23,6 +25,8 @@ opt.completeopt = { 'menuone', 'noselect', 'noinsert' }
 opt.shiftwidth = 2
 opt.undofile = true
 opt.tabstop = 2
+opt.list = true
+opt.lcs = 'eol:‹,trail:.,tab:>-,multispace:---+'
 vim.notify = require("notify")
 require("notify").setup({
 	background_colour = "#000000",

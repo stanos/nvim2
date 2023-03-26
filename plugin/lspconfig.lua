@@ -141,11 +141,17 @@ nvim_lsp.clangd.setup {
 	capabilities = capabilities,
 }
 
+
+nvim_lsp.pylsp.setup {
+	on_attach = on_attach,
+	capabilities = capabilities
+}
+
 nvim_lsp.pyright.setup {
 	on_attach = on_attach,
 	capabilities = capabilities,
 	root_dir = function() return vim.loop.cwd() end,
-	extra_paths = {'~/Dev/pythonLibs'}
+	extra_paths = {'~/Dev/pythonLibs', '/opt/homebrew/lib/python3.11/site-packages'}
 
 }
 
@@ -170,6 +176,12 @@ nvim_lsp.cssls.setup {
 	on_attach = on_attach,
 	capabilities = capabilities
 }
+
+nvim_lsp.tailwindcss.setup {
+	on_attach = on_attach,
+	capabilities = capabilities
+}
+
 
 nvim_lsp.astro.setup {
 	on_attach = on_attach,
