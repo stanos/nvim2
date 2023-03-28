@@ -26,7 +26,7 @@ opt.shiftwidth = 2
 opt.undofile = true
 opt.tabstop = 2
 opt.list = true
-opt.lcs = 'eol:‹,trail:.,tab:>-,multispace:---+'
+opt.lcs = 'eol:⏎,trail:.,tab:>-,multispace:---+'
 vim.notify = require("notify")
 require("notify").setup({
 	background_colour = "#000000",
