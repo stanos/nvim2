@@ -10,6 +10,7 @@ require('leap').add_default_mappings()
 
 return require('packer').startup(function(use)
 	-- Packer can manage itself
+	use({ 'rose-pine/neovim', as = 'rose-pine' })
 	use 'wbthomason/packer.nvim'
 	use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
 	use 'nvim-treesitter/playground'

@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- Theme / Colorscheme
-vim.cmd [[colorscheme gruvbox-baby]]
+vim.cmd [[colorscheme rose-pine]]
 vim.cmd [[set timeoutlen=350]]
 
 -- numbers
