@@ -53,6 +53,9 @@ return require('packer').startup(function(use)
 	use 'dcampos/cmp-snippy'
 	use 'arkav/lualine-lsp-progress'
 	use 'luisiacc/gruvbox-baby'
+	-- Using Packer:
+use 'Mofiqul/dracula.nvim'
+	use { 'AntonVanAssche/date-time-inserter.nvim' }
 	use({
     "aserowy/tmux.nvim",
     config = function() return require("tmux").setup() end
